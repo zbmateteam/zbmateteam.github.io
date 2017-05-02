@@ -58,14 +58,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/configuration.html</loc>
+    <loc>http://zbmate.com/docs/contributing.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/contributing.html</loc>
+    <loc>http://zbmate.com/docs/configuration.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -100,14 +100,7 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/index.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/migration.html</loc>
+    <loc>http://zbmate.com/docs/helpers.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -121,7 +114,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/helpers.html</loc>
+    <loc>http://zbmate.com/docs/index.html</loc>
+    
+    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/migration.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -219,14 +219,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/api/console.html</loc>
+    <loc>http://zbmate.com/zh-cn/api/box.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/api/box.html</loc>
+    <loc>http://zbmate.com/zh-cn/api/console.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -345,14 +345,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/commands.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/asset-folders.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/asset-folders.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/commands.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -408,14 +408,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/news/2014/06/14/hexo-2-7-released/</loc>
+    <loc>http://zbmate.com/zh-cn/docs/internationalization.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/internationalization.html</loc>
+    <loc>http://zbmate.com/news/2014/06/14/hexo-2-7-released/</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -464,14 +464,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/templates.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/themes.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/themes.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/templates.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -485,14 +485,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/variables.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/writing.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/writing.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/variables.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
