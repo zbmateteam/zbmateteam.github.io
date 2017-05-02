@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>我的小店插件 | 智播</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://zbmate.com/zh-cn/docs/myshop_plugin.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="http://zbmate.com/docs/myshop_plugin.html">
+    
+      <link rel="alternative" hreflang="zh-cn" href="http://zbmate.com/zh-cn/docs/myshop_plugin.html">
+    
+  
+  <link rel="apple-touch-icon" rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Icon -->
+  <meta name="keywords" content="智播,直播,OBS,浏览器插件,斗鱼直播,视频交友,全民直播,美女直播,高颜值直播,直播伴侣">
+  <meta name="description" content="智播,直播,OBS,浏览器插件,斗鱼直播,视频交友,全民直播,美女直播,高颜值直播,直播伴侣">
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/icon/fav_icon.png">
+
+  <meta name="msapplication-TileColor" content="#2f83cd">
+
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="智播">
+
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="http://zbmate.com" id="logo">zbmate</a>
+
+    </h1>
+    
+    <nav id="main-nav">
+     
+      
+    </nav>
+    <div id="lang-select-wrap">
+      <a href="http://zbmate.com" class="main-nav-link">首页</a>
+      <a href="/zh-cn/docs/" class="main-nav-link">文档</a><a href="/news/" class="main-nav-link">新闻</a><a href="/download/" class="main-nav-link">下载</a>
+      <a href="http://zbmate.com/login" class="main-nav-link">登录</a>
+      
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+    
+    
+ 
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">我的小店插件</h1>
+         
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <style type="text/css">
+.myshop_container, .myshop_building, .myshop_upper-still, .myshop_wall, .myshop_gap, .myshop_roof, .myshop_shutter, .myshop_banner, .myshop_brand, .myshop_door-roof, .myshop_curtain, .myshop_door, .myshop_mailbox, .myshop_still, .myshop_shadow, .myshop_indoor, .myshop_indoor-shadow, .myshop_owner, .hand, .myshop_box {
+  position: absolute;
+}
+
+
+.myshop_container {
+  width: 450px;
+  height: 450px;
+  margin: 40px auto;
+  font-family: 'Lobster Two', cursive;
+}
+
+.myshop_building {
+  width: 375px;
+  height: 430px;
+  top: 10px;
+  left: 50px;
+}
+
+.myshop_wall {
+  width: 350px;
+  height: 430px;
+  background: #C9C19F;
+  overflow-x: hidden;
+}
+
+.myshop_upper-still {
+  z-index: 10;
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  width: 360px;
+  height: 10px;
+  background: #B7B091;
+  box-shadow: 0px 5px 1px rgba(37, 22, 5, 0.8);
+}
+
+.myshop_shadow {
+  z-index: 100;
+  top: 20px;
+  width: 350px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.myshop_gap {
+  top: 30px;
+  width: 400px;
+  height: 2px;
+  background: #AFA28B;
+  box-shadow: 0 1px 0 0 #F6F4D3;
+  filter: blur(0.8px);
+}
+.myshop_gap:before, .myshop_gap:after {
+  position: absolute;
+  content: '';
+}
+.myshop_gap:before {
+  top: 20px;
+  width: 400px;
+  height: 2px;
+  background: #AFA28B;
+  box-shadow: 0 1px 0 0 #F6F4D3;
+}
+
+.myshop_roof {
+  top: 70px;
+  width: 350px;
+  height: 20px;
+  background: #746A5F;
+  box-shadow: 0 15px 2px 1px rgba(37, 22, 5, 0.6);
+  background: repeating-linear-gradient(to right, #887F76, #887F76 10px, #887F76 10px, #251605 20px);
+}
+.myshop_roof .myshop_shadow {
+  left: 5px;
+  -webkit-transform: skew(20deg);
+}
+.myshop_roof:before {
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 0;
+  width: 350px;
+  height: 5px;
+  background: #887F76;
+  box-shadow: 0 1px 1px #251605;
+}
+
+.myshop_shutter {
+  top: 100px;
+  left: 70px;
+  width: 88px;
+  height: 80px;
+  background: #696047;
+  background: repeating-linear-gradient(to bottom, #251605, #251605 10px, #D7D4D1 11px, #D7D4D1 11px, #4C4032 11px, #4C4032 20px);
+}
+.myshop_shutter:before, .myshop_shutter:after {
+  position: absolute;
+  content: '';
+}
+.myshop_shutter:before {
+  top: 0;
+  left: 40px;
+  width: 10px;
+  height: 100px;
+  background: #4C4032;
+}
+
+.myshop_shutter.myshop_right {
+  left: 190px;
+}
+
+.myshop_banner {
+  z-index: 15;
+  top: 170px;
+  left: 20px;
+  width: 310px;
+  height: 70px;
+  background: #F6F4D3;
+  box-shadow: 10px 0 2px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.myshop_banner:before, .myshop_banner:after {
+  position: absolute;
+  content: '';
+}
+.myshop_banner:before {
+  top: 8px;
+  left: 10px;
+  width: 290px;
+  height: 5px;
+  background: rgba(214, 157, 77, 0.5);
+}
+.myshop_banner:after {
+  top: 8px;
+  left: 10px;
+  width: 3px;
+  height: 50px;
+  background: rgba(214, 157, 77, 0.5);
+}
+.myshop_banner .myshop_brand {
+  padding-top: 12px;
+  color: #2D848A;
+  font-family: 'cwTeXFangSong', serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.myshop_banner .myshop_brand span {
+  display: block;
+  color: #67696E;
+  letter-spacing: 2px;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+.myshop_door-roof {
+  z-index: 14;
+  top: 225px;
+  width: 350px;
+  height: 20px;
+  background: #DCBF85;
+  box-shadow: 0px 10px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.myshop_door-roof:before {
+  position: absolute;
+  content: '';
+  top: 20px;
+  width: 350px;
+  height: 5px;
+  background: #A3854F;
+}
+
+.myshop_curtain {
+  z-index: 11;
+  top: 250px;
+  left: 30px;
+  width: 290px;
+  height: 65px;
+  background: #FFF;
+  background: repeating-linear-gradient(to right, #FFF, #FFF 10px, #F77AC0 10px, #F77AC0 20px);
+}
+.myshop_curtain .myshop_shadow {
+  width: 0;
+  height: 0;
+  background: none;
+  top: 0px;
+  border-left: 290px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 20px solid rgba(0, 0, 0, 0.3);
+}
+
+.myshop_curtain-front {
+  z-index: 10;
+  position: relative;
+  top: 305px;
+  left: 30px;
+}
+.myshop_curtain-front:before {
+  position: absolute;
+  content: '';
+  top: 10px;
+  left: 280px;
+  width: 10px;
+  height: 10px;
+  background: #DDD;
+  border-bottom-left-radius: 100%;
+}
+.myshop_curtain-front div {
+  position: absolute;
+  width: 2.6vmin;
+  height: 2.6vmin;
+  border-radius: 100%;
+  background: repeating-linear-gradient(to right, #DDD, #DDD 10px, #F77AC0 10px, #F77AC0 20px);
+}
+.myshop_curtain-front div:nth-child(2) {
+  left: 20px;
+}
+.myshop_curtain-front div:nth-child(3) {
+  left: 40px;
+}
+.myshop_curtain-front div:nth-child(4) {
+  left: 60px;
+}
+.myshop_curtain-front div:nth-child(5) {
+  left: 80px;
+}
+.myshop_curtain-front div:nth-child(6) {
+  left: 100px;
+}
+.myshop_curtain-front div:nth-child(7) {
+  left: 120px;
+}
+.myshop_curtain-front div:nth-child(8) {
+  left: 140px;
+}
+.myshop_curtain-front div:nth-child(9) {
+  left: 160px;
+}
+.myshop_curtain-front div:nth-child(10) {
+  left: 180px;
+}
+.myshop_curtain-front div:nth-child(11) {
+  left: 200px;
+}
+.myshop_curtain-front div:nth-child(12) {
+  left: 220px;
+}
+.myshop_curtain-front div:nth-child(13) {
+  left: 240px;
+}
+.myshop_curtain-front div:nth-child(14) {
+  left: 260px;
+}
+
+.myshop_door {
+  top: 250px;
+  left: 40px;
+  width: 270px;
+  height: 150px;
+  background: linear-gradient(#241B07, #4F595B);
+}
+.myshop_door .myshop_indoor {
+  filter: blur(0.5px);
+}
+.myshop_door .myshop_indoor .myshop_box {
+  top: 130px;
+  left: 5px;
+  width: 60px;
+  height: 15px;
+  background: #A3854F;
+}
+.myshop_door .myshop_indoor .myshop_box:before, .myshop_door .myshop_indoor .myshop_box:after {
+  position: absolute;
+  content: '';
+}
+.myshop_door .myshop_indoor .myshop_box:before {
+  top: -35px;
+  border-bottom: 35px solid #5D4C2D;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  height: 0;
+  width: 50px;
+}
+.myshop_door .myshop_indoor .myshop_box.myshop_right {
+  width: 110px;
+  height: 15px;
+  left: 90px;
+}
+.myshop_door .myshop_indoor .myshop_box.myshop_right:before {
+  top: -35px;
+  border-bottom: 35px solid #5D4C2D;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  height: 0;
+  width: 94px;
+}
+.myshop_door .myshop_indoor .myshop_owner {
+  top: 90px;
+  left: 220px;
+  width: 30px;
+  height: 30px;
+  background: #FEDEA2;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  -webkit-transform: skew(-5deg);
+}
+.myshop_door .myshop_indoor .myshop_owner:before, .myshop_door .myshop_indoor .myshop_owner:after {
+  position: absolute;
+  content: '';
+}
+.myshop_door .myshop_indoor .myshop_owner:before {
+  top: 30px;
+  width: 30px;
+  height: 50px;
+  background: #393D3F;
+}
+.myshop_door .myshop_indoor .myshop_owner:after {
+  top: -12px;
+  left: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 30%;
+  background: #F6C392;
+}
+.myshop_door .myshop_indoor .myshop_owner .myshop_hand {
+  top: 1px;
+  left: -2px;
+  width: 10px;
+  height: 10px;
+  background: #FEDEA2;
+  border-radius: 50%;
+}
+.myshop_door .myshop_indoor .myshop_owner .myshop_hand:before, .myshop_door .myshop_indoor .myshop_myshop_owner .hand:after {
+  position: absolute;
+  content: "";
+}
+.myshop_door .myshop_indoor .myshop_owner .myshop_hand:before {
+  top: 4px;
+  left: 25px;
+  width: 10px;
+  height: 10px;
+  background: #FEDEA2;
+  border-radius: 50%;
+}
+.myshop_door .myshop_indoor .myshop_owner .myshop_hand:after {
+  top: 8px;
+  left: 27px;
+  width: 10px;
+  height: 15px;
+  background: #F6C392;
+  border-radius: 50%;
+}
+.myshop_door .myshop_indoor .myshop_indoor-shadow {
+  top: 0px;
+  left: 0px;
+  width: 270px;
+  height: 160px;
+  background: linear-gradient(black, transparent);
+}
+.myshop_door .myshop_gap {
+  top: 30px;
+  left: -40px;
+  width: 40px;
+}
+.myshop_door .myshop_gap:before {
+  top: 40px;
+  left: 0px;
+  width: 40px;
+}
+.myshop_door .myshop_gap:after {
+  top: 80px;
+  left: 0px;
+  width: 40px;
+  height: 2px;
+  background: #AFA28B;
+  box-shadow: 0 1px 0 0 #F6F4D3;
+}
+.myshop_door .myshop_gap.myshop_right {
+  left: 270px;
+}
+.myshop_door .myshop_shadow {
+  z-index: 9;
+  top: 0px;
+  left: 15px;
+  width: 300px;
+  height: 180px;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-transform: skew(30deg);
+}
+
+.myshop_mailbox {
+  top: 50px;
+  left: -30px;
+  width: 20px;
+  height: 30px;
+  background: #EEE;
+  box-shadow: 6px 5px 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 1px;
+}
+
+.myshop_still {
+  top: 410px;
+  left: -25px;
+  width: 400px;
+  height: 20px;
+  background: #B7B091;
+}
+.myshop_still:before, .myshop_still:after {
+  position: absolute;
+  content: '';
+}
+.myshop_still:before {
+  top: -10px;
+  left: 10px;
+  width: 380px;
+  height: 10px;
+  background: #F0F7EE;
+}
+.myshop_still:after {
+  top: 0px;
+  left: 375px;
+  width: 25px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.3);
+}
+</style>
+
+
+<h2 id="效果图" class="article-heading"><a href="#效果图" class="headerlink" title="效果图"></a>效果图<a class="article-anchor" href="#效果图" aria-hidden="true"></a></h2><div class="myshop_container"><br>  <div class="myshop_building"><br>    <div class="myshop_upper-still"></div><br>    <div class="myshop_wall"><br>      <div class="myshop_gap"></div><br>      <div class="myshop_roof"></div><br>      <div class="myshop_shutter"></div><br>      <div class="myshop_shutter myshop_right"></div><br>      <div class="myshop_door-roof"></div><br>      <div class="myshop_banner"><br>        <div class="myshop_brand"><br>        八百滿青果店<br>        <br><span>(57)1357</span><br>        </div><br>      </div><br>      <div class="myshop_door"><br>        <div class="myshop_indoor"><br>          <div class="myshop_box"></div><br>          <div class="myshop_box myshop_right"></div><br>          <div class="myshop_owner"><br>            <dic class="myshop_hand"></dic><br>          </div><br>          <div class="myshop_indoor-shadow"></div><br>        </div><br>        <div class="myshop_gap"></div><br>        <div class="myshop_gap myshop_right"></div><br>        <div class="myshop_shadow"></div><br>        <div class="myshop_myshop_mailbox"></div><br>      </div><br>      <div class="myshop_curtain"><br>        <div class="myshop_shadow"></div><br>      </div><br>      <div class="myshop_curtain-front"><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>        <div></div><br>      </div><br>    </div><br>    <div class="myshop_still"></div><br>  </div><br></div>
+
+<h2 id="配置" class="article-heading"><a href="#配置" class="headerlink" title="配置"></a>配置<a class="article-anchor" href="#配置" aria-hidden="true"></a></h2><p>是打发第三方</p>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2017-05-02T16:49:16.136Z" itemprop="dateModified">上次更新：2017-05-02</time>
+                <a href="cycle_plugin.html" class="article-footer-prev" title="圆形动画插件"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="qimawu_plugin.html" class="article-footer-next" title="骑马舞插件"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#效果图"><span class="toc-text">效果图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置"><span class="toc-text">配置</span></a></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">概述</a><strong class="sidebar-title">弹幕插件</strong><a href="chatroom_plugin.html" class="sidebar-link">聊天室插件</a><a href="vote_plugin.html" class="sidebar-link">投票插件</a><a href="gift_plugin.html" class="sidebar-link">礼物插件</a><strong class="sidebar-title">常规插件</strong><a href="whiteboard_plugin.html" class="sidebar-link">白板插件</a><a href="ad_plugin.html" class="sidebar-link">广告插件</a><a href="album_plugin.html" class="sidebar-link">相册插件</a><a href="book_plugin.html" class="sidebar-link">电子书插件</a><a href="businesscard_plugin.html" class="sidebar-link">名片插件</a><a href="cycle_plugin.html" class="sidebar-link">圆形动画插件</a><a href="myshop_plugin.html" class="sidebar-link current">我的小店插件</a><a href="qimawu_plugin.html" class="sidebar-link">骑马舞插件</a><a href="rabbit_plugin.html" class="sidebar-link">小兔子插件</a><a href="text_plugin.html" class="sidebar-link">文本插件</a><a href="typing_plugin.html" class="sidebar-link">打字效果插件</a><strong class="sidebar-title">屏保插件</strong><a href="screensave1_plugin.html" class="sidebar-link">屏保1插件</a><a href="screensave2_plugin.html" class="sidebar-link">屏保2插件</a><strong class="sidebar-title">其他</strong><a href="troubleshooting.html" class="sidebar-link">问题解答</a></div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      Copyright 2017-2019 zbmate.com All rights reserved. </a>
+    </div>
+    <div id="footer-links">
+      沪ICP备17014325号-1
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/zh-cn/docs/" class="mobile-nav-link">文档</a><a href="/news/" class="mobile-nav-link">新闻</a><a href="/download/" class="mobile-nav-link">下载</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">概述</a><strong class="mobile-nav-title">弹幕插件</strong><a href="chatroom_plugin.html" class="mobile-nav-link">聊天室插件</a><a href="vote_plugin.html" class="mobile-nav-link">投票插件</a><a href="gift_plugin.html" class="mobile-nav-link">礼物插件</a><strong class="mobile-nav-title">常规插件</strong><a href="whiteboard_plugin.html" class="mobile-nav-link">白板插件</a><a href="ad_plugin.html" class="mobile-nav-link">广告插件</a><a href="album_plugin.html" class="mobile-nav-link">相册插件</a><a href="book_plugin.html" class="mobile-nav-link">电子书插件</a><a href="businesscard_plugin.html" class="mobile-nav-link">名片插件</a><a href="cycle_plugin.html" class="mobile-nav-link">圆形动画插件</a><a href="myshop_plugin.html" class="mobile-nav-link current">我的小店插件</a><a href="qimawu_plugin.html" class="mobile-nav-link">骑马舞插件</a><a href="rabbit_plugin.html" class="mobile-nav-link">小兔子插件</a><a href="text_plugin.html" class="mobile-nav-link">文本插件</a><a href="typing_plugin.html" class="mobile-nav-link">打字效果插件</a><strong class="mobile-nav-title">屏保插件</strong><a href="screensave1_plugin.html" class="mobile-nav-link">屏保1插件</a><a href="screensave2_plugin.html" class="mobile-nav-link">屏保2插件</a><strong class="mobile-nav-title">其他</strong><a href="troubleshooting.html" class="mobile-nav-link">问题解答</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="docs/myshop_plugin.html">
+      
+        <option value="en">English</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/scrollingelement.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+<script src="https://cdn.jsdelivr.net/retinajs/1.3.0/retina.min.js" async></script>
+
+<!-- Algolia -->
+
+
+</body>
+</html>

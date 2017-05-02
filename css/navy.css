@@ -125,7 +125,7 @@ select {
 body {
   background: #171f26;
   font-size: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Microsoft YaHei", "黑体", "宋体";
   color: #444;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -1339,7 +1339,7 @@ a.article-title:hover {
   transition: opacity 0.4s;
 }
 #footer {
-  padding: 40px 0;
+  padding: 10px 0;
   color: rgba(255,255,255,0.6);
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
