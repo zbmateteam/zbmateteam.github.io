@@ -2,9 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zbmate.com/zh-cn/docs/usercase1.html</loc>
+    
+    <lastmod>2017-05-04T06:53:30.961Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/troubleshooting.html</loc>
+    
+    <lastmod>2017-05-04T06:49:08.244Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/docs/troubleshooting.html</loc>
+    
+    <lastmod>2017-05-04T06:49:08.244Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/plugin_list.html</loc>
+    
+    <lastmod>2017-05-04T06:48:21.921Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/docs/plugin_list.html</loc>
+    
+    <lastmod>2017-05-04T06:48:21.921Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/usercase1.html</loc>
+    
+    <lastmod>2017-05-04T06:08:14.393Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zbmate.com/docs/index.html</loc>
     
-    <lastmod>2017-05-04T03:48:09.930Z</lastmod>
+    <lastmod>2017-05-04T03:40:56.943Z</lastmod>
     
   </url>
   
@@ -30,156 +72,9 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/myshop_plugin.html</loc>
-    
-    <lastmod>2017-05-02T16:49:16.136Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/myshop_plugin.html</loc>
-    
-    <lastmod>2017-05-02T16:49:16.136Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zbmate.com/news/2017/05/03/zbmate-releasenote-0-1/</loc>
     
     <lastmod>2017-05-02T16:08:48.658Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/cycle_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/gift_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/writing.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/ad_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/qimawu_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/rabbit_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/screensave1_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/screensave2_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/templates.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/text_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/themes.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/troubleshooting.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/typing_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/variables.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/vote_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/whiteboard_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/album_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/writing.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/book_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
@@ -191,161 +86,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/index.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/album_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/ad_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/book_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/businesscard_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/chatroom_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/businesscard_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/gift_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/cycle_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/chatroom_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/screensave1_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/qimawu_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/rabbit_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/text_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/screensave2_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/templates.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/themes.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/troubleshooting.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/typing_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/variables.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/vote_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/whiteboard_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zbmate.com/plugins/index.html</loc>
+    
+    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/index.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     

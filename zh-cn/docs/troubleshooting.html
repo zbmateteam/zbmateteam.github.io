@@ -44,7 +44,7 @@
     <header id="header" class="wrapper">
   <div id="header-inner" class="inner">
     <h1 id="logo-wrap">
-      <a href="http://zbmate.com" id="logo">zbmate</a>
+      <a href="http://zbmate.com" id="logo"></a>
 
     </h1>
     
@@ -81,40 +81,11 @@
          
               </header>
               <div class="article-content" itemprop="articleBody">
-                <p>在使用 Hexo 时，您可能会遇到一些问题，下列的常见问题解答可能会对您有所帮助。如果您在这里找不道解答，可以在 <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a> 或 <a href="https://groups.google.com/group/hexo" target="_blank" rel="external">Google Group</a> 上提问。</p>
-<h2 id="YAML-解析错误" class="article-heading"><a href="#YAML-解析错误" class="headerlink" title="YAML 解析错误"></a>YAML 解析错误<a class="article-anchor" href="#YAML-解析错误" aria-hidden="true"></a></h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">JS-YAML: incomplete explicit mapping pair; a key node is missed at line 18, column 29:</div><div class="line">      last_updated: Last updated: %s</div></pre></td></tr></table></figure>
-<p>如果 YAML 字符串中包含冒号（<code>:</code>）的话，请加上引号。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">JS-YAML: bad indentation of a mapping entry at line 18, column 31:</div><div class="line">      last_updated:&quot;Last updated: %s&quot;</div></pre></td></tr></table></figure>
-<p>请确认您使用空格进行缩进（Soft tab），并确认冒号后有加上一个空格。</p>
-<p>您可参阅 <a href="http://www.yaml.org/spec/1.2/spec.html" target="_blank" rel="external">YAML 规范</a> 以取得更多信息。</p>
-<h2 id="EMFILE-错误" class="article-heading"><a href="#EMFILE-错误" class="headerlink" title="EMFILE 错误"></a>EMFILE 错误<a class="article-anchor" href="#EMFILE-错误" aria-hidden="true"></a></h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">Error: EMFILE, too many open files</div></pre></td></tr></table></figure>
-<p>虽然 Node.js 有非阻塞 I/O，同步 I/O 的数量仍被系统所限制，在生成大量静态文件的时候，您可能会碰到 EMFILE 错误，您可以尝试提高同步 I/O 的限制数量来解决此问题。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ <span class="built_in">ulimit</span> -n 10000</div></pre></td></tr></table></figure>
-<p>（这一命令只对Linux系统有效）</p>
-<h2 id="Git-部署问题" class="article-heading"><a href="#Git-部署问题" class="headerlink" title="Git 部署问题"></a>Git 部署问题<a class="article-anchor" href="#Git-部署问题" aria-hidden="true"></a></h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">fatal: &apos;username.github.io&apos; does not appear to be a git repository</div></pre></td></tr></table></figure>
-<p>请确认您已经在电脑上 <a href="https://help.github.com/articles/set-up-git" target="_blank" rel="external">配置 git</a>，或改用 HTTPS 库（repository）地址。</p>
-<h2 id="服务器问题" class="article-heading"><a href="#服务器问题" class="headerlink" title="服务器问题"></a>服务器问题<a class="article-anchor" href="#服务器问题" aria-hidden="true"></a></h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">Error: listen EADDRINUSE</div></pre></td></tr></table></figure>
-<p>您可能同时开启两个 Hexo 服务器，或者有其他应用程序正在占用相同的端口，请尝试修改 <code>port</code> 参数，或是在启动 Hexo 服务器时加上 <code>-p</code> 选项。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo server -p 5000</div></pre></td></tr></table></figure>
-<h2 id="插件安装问题" class="article-heading"><a href="#插件安装问题" class="headerlink" title="插件安装问题"></a>插件安装问题<a class="article-anchor" href="#插件安装问题" aria-hidden="true"></a></h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">npm ERR! node-waf configure build</div></pre></td></tr></table></figure>
-<p>当您尝试安装以 C/C++ 或其他非 JavaScript 语言所编写的插件时，可能会遇到此类问题，请确认您已经在电脑上安装相对应的编译器。</p>
-<h2 id="DTrace-错误-（Mac-OS-X）" class="article-heading"><a href="#DTrace-错误-（Mac-OS-X）" class="headerlink" title="DTrace 错误 （Mac OS X）"></a>DTrace 错误 （Mac OS X）<a class="article-anchor" href="#DTrace-错误-（Mac-OS-X）" aria-hidden="true"></a></h2><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">&#123; [Error: Cannot find module &apos;./build/Release/DTraceProviderBindings&apos;] code: &apos;MODULE_NOT_FOUND&apos; &#125;</div><div class="line">&#123; [Error: Cannot find module &apos;./build/default/DTraceProviderBindings&apos;] code: &apos;MODULE_NOT_FOUND&apos; &#125;</div><div class="line">&#123; [Error: Cannot find module &apos;./build/Debug/DTraceProviderBindings&apos;] code: &apos;MODULE_NOT_FOUND&apos; &#125;</div></pre></td></tr></table></figure>
-<p>DTrace 安装可能有错误 , 使用下列命令:<br><figure class="highlight sh"><table><tr><td class="code"><pre><div class="line">$ npm install hexo --no-optional</div></pre></td></tr></table></figure></p>
-<p>参考 <a href="https://github.com/hexojs/hexo/issues/1326#issuecomment-113871796" target="_blank" rel="external">#1326</a></p>
-<h2 id="在-Jade-或-Swig-遍历资料" class="article-heading"><a href="#在-Jade-或-Swig-遍历资料" class="headerlink" title="在 Jade 或 Swig 遍历资料"></a>在 Jade 或 Swig 遍历资料<a class="article-anchor" href="#在-Jade-或-Swig-遍历资料" aria-hidden="true"></a></h2><p>Hexo 使用 <a href="https://github.com/tommy351/warehouse" target="_blank" rel="external">Warehouse</a> 存储资料，它不是一般数组所以必须先进行类型转型才能遍历。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">&#123;% for post in site.posts.toArray() %&#125;</div><div class="line">&#123;% endfor %&#125;</div></pre></td></tr></table></figure>
-<h2 id="资料没有更新" class="article-heading"><a href="#资料没有更新" class="headerlink" title="资料没有更新"></a>资料没有更新<a class="article-anchor" href="#资料没有更新" aria-hidden="true"></a></h2><p>有时资料可能没有被更新，或是生成的文件与修改前的相同，您可以尝试清除缓存并再执行一次。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ hexo clean</div></pre></td></tr></table></figure>
-<h2 id="泄露（Escape）内容" class="article-heading"><a href="#泄露（Escape）内容" class="headerlink" title="泄露（Escape）内容"></a>泄露（Escape）内容<a class="article-anchor" href="#泄露（Escape）内容" aria-hidden="true"></a></h2><p>Hexo 使用 <a href="http://mozilla.github.io/nunjucks/" target="_blank" rel="external">Nunjucks</a> 来解析文章（旧版本使用 <a href="http://paularmstrong.github.io/swig/" target="_blank" rel="external">Swig</a>，两者语法类似），内容若包含 <code>{{ }}</code> 或 <code>{% %}</code> 可能导致解析错误，您可以用 <code>raw</code> 标签包裹来避免潜在问题发生。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">&#123;% raw %&#125;</div><div class="line">Hello &#123;&#123; sensitive &#125;&#125;</div><div class="line">&#123;% endraw %&#125;</div></pre></td></tr></table></figure>
-<h2 id="ENOSPC-错误-（Linux）" class="article-heading"><a href="#ENOSPC-错误-（Linux）" class="headerlink" title="ENOSPC 错误 （Linux）"></a>ENOSPC 错误 （Linux）<a class="article-anchor" href="#ENOSPC-错误-（Linux）" aria-hidden="true"></a></h2><p>运行 <code>$ hexo server</code> 命令有时会返回这样的错误：<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">Error: watch ENOSPC ...</div></pre></td></tr></table></figure></p>
-<p>它可以用过运行 <code>$ npm dedupe</code> 来解决，如果不起作用的话，可以尝试在 Linux 终端中运行下列命令：<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;&amp; sudo sysctl -p</div></pre></td></tr></table></figure></p>
-<p>这将会提高你能监视的文件数量。</p>
-
+                
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2017-04-26T18:38:16.000Z" itemprop="dateModified">上次更新：2017-04-26</time>
-                <a href="screensave2_plugin.html" class="article-footer-prev" title="屏保2插件"><i class="fa fa-chevron-left"></i><span>上一页</span></a>
+                <time class="article-footer-updated" datetime="2017-05-04T06:49:08.244Z" itemprop="dateModified">上次更新：2017-05-04</time>
+                <a href="usercase1.html" class="article-footer-prev" title="大叔带你：开飞机：737冷舱启动详解"><i class="fa fa-chevron-left"></i><span>上一页</span></a>
               </footer>
               
             </div>
@@ -122,14 +93,14 @@
           <aside id="article-toc" role="navigation">
             <div id="article-toc-inner">
               <strong class="sidebar-title">目录</strong>
-              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#YAML-解析错误"><span class="toc-text">YAML 解析错误</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#EMFILE-错误"><span class="toc-text">EMFILE 错误</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Git-部署问题"><span class="toc-text">Git 部署问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#服务器问题"><span class="toc-text">服务器问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#插件安装问题"><span class="toc-text">插件安装问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DTrace-错误-（Mac-OS-X）"><span class="toc-text">DTrace 错误 （Mac OS X）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#在-Jade-或-Swig-遍历资料"><span class="toc-text">在 Jade 或 Swig 遍历资料</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#资料没有更新"><span class="toc-text">资料没有更新</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#泄露（Escape）内容"><span class="toc-text">泄露（Escape）内容</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ENOSPC-错误-（Linux）"><span class="toc-text">ENOSPC 错误 （Linux）</span></a></li></ol>
+              
               <a href="#" id="article-toc-top">回到顶部</a>
             </div>
           </aside>
         </div>
       </article>
       <aside id="sidebar" role="navigation">
-  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">概述</a><strong class="sidebar-title">弹幕插件</strong><a href="chatroom_plugin.html" class="sidebar-link">聊天室插件</a><a href="vote_plugin.html" class="sidebar-link">投票插件</a><a href="gift_plugin.html" class="sidebar-link">礼物插件</a><strong class="sidebar-title">常规插件</strong><a href="whiteboard_plugin.html" class="sidebar-link">白板插件</a><a href="ad_plugin.html" class="sidebar-link">广告插件</a><a href="album_plugin.html" class="sidebar-link">相册插件</a><a href="book_plugin.html" class="sidebar-link">电子书插件</a><a href="businesscard_plugin.html" class="sidebar-link">名片插件</a><a href="cycle_plugin.html" class="sidebar-link">圆形动画插件</a><a href="myshop_plugin.html" class="sidebar-link">我的小店插件</a><a href="qimawu_plugin.html" class="sidebar-link">骑马舞插件</a><a href="rabbit_plugin.html" class="sidebar-link">小兔子插件</a><a href="text_plugin.html" class="sidebar-link">文本插件</a><a href="typing_plugin.html" class="sidebar-link">打字效果插件</a><strong class="sidebar-title">屏保插件</strong><a href="screensave1_plugin.html" class="sidebar-link">屏保1插件</a><a href="screensave2_plugin.html" class="sidebar-link">屏保2插件</a><strong class="sidebar-title">其他</strong><a href="troubleshooting.html" class="sidebar-link current">问题解答</a></div>
+  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">概述</a><strong class="sidebar-title">插件列表</strong><a href="plugin_list.html" class="sidebar-link">插件列表</a><strong class="sidebar-title">用户案例</strong><a href="usercase1.html" class="sidebar-link">大叔带你：开飞机：737冷舱启动详解</a><strong class="sidebar-title">Разное</strong><a href="troubleshooting.html" class="sidebar-link current">问题解答</a></div>
 </aside>
     </div>
   </div>
@@ -157,7 +128,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">概述</a><strong class="mobile-nav-title">弹幕插件</strong><a href="chatroom_plugin.html" class="mobile-nav-link">聊天室插件</a><a href="vote_plugin.html" class="mobile-nav-link">投票插件</a><a href="gift_plugin.html" class="mobile-nav-link">礼物插件</a><strong class="mobile-nav-title">常规插件</strong><a href="whiteboard_plugin.html" class="mobile-nav-link">白板插件</a><a href="ad_plugin.html" class="mobile-nav-link">广告插件</a><a href="album_plugin.html" class="mobile-nav-link">相册插件</a><a href="book_plugin.html" class="mobile-nav-link">电子书插件</a><a href="businesscard_plugin.html" class="mobile-nav-link">名片插件</a><a href="cycle_plugin.html" class="mobile-nav-link">圆形动画插件</a><a href="myshop_plugin.html" class="mobile-nav-link">我的小店插件</a><a href="qimawu_plugin.html" class="mobile-nav-link">骑马舞插件</a><a href="rabbit_plugin.html" class="mobile-nav-link">小兔子插件</a><a href="text_plugin.html" class="mobile-nav-link">文本插件</a><a href="typing_plugin.html" class="mobile-nav-link">打字效果插件</a><strong class="mobile-nav-title">屏保插件</strong><a href="screensave1_plugin.html" class="mobile-nav-link">屏保1插件</a><a href="screensave2_plugin.html" class="mobile-nav-link">屏保2插件</a><strong class="mobile-nav-title">其他</strong><a href="troubleshooting.html" class="mobile-nav-link current">问题解答</a>
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">概述</a><strong class="mobile-nav-title">插件列表</strong><a href="plugin_list.html" class="mobile-nav-link">插件列表</a><strong class="mobile-nav-title">用户案例</strong><a href="usercase1.html" class="mobile-nav-link">大叔带你：开飞机：737冷舱启动详解</a><strong class="mobile-nav-title">Разное</strong><a href="troubleshooting.html" class="mobile-nav-link current">问题解答</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
