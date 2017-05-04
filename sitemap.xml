@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zbmate.com/docs/index.html</loc>
+    
+    <lastmod>2017-05-04T03:48:09.930Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/docs/index.html</loc>
+    
+    <lastmod>2017-05-04T03:40:56.943Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zbmate.com/download/index.html</loc>
     
     <lastmod>2017-05-02T17:10:38.537Z</lastmod>
@@ -26,20 +40,6 @@
     <loc>http://zbmate.com/zh-cn/docs/myshop_plugin.html</loc>
     
     <lastmod>2017-05-02T16:49:16.136Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/index.html</loc>
-    
-    <lastmod>2017-05-02T16:19:16.459Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/index.html</loc>
-    
-    <lastmod>2017-05-02T16:19:16.459Z</lastmod>
     
   </url>
   
@@ -142,14 +142,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/vote_plugin.html</loc>
+    <loc>http://zbmate.com/docs/variables.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/variables.html</loc>
+    <loc>http://zbmate.com/docs/vote_plugin.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -163,14 +163,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/writing.html</loc>
+    <loc>http://zbmate.com/docs/album_plugin.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/album_plugin.html</loc>
+    <loc>http://zbmate.com/docs/writing.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -198,14 +198,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/ad_plugin.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/album_plugin.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/album_plugin.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/ad_plugin.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -233,7 +233,7 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/cycle_plugin.html</loc>
+    <loc>http://zbmate.com/docs/businesscard_plugin.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -247,7 +247,7 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/businesscard_plugin.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/cycle_plugin.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -261,13 +261,6 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/qimawu_plugin.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zbmate.com/zh-cn/docs/screensave1_plugin.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
@@ -275,7 +268,21 @@
   </url>
   
   <url>
+    <loc>http://zbmate.com/zh-cn/docs/qimawu_plugin.html</loc>
+    
+    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zbmate.com/zh-cn/docs/rabbit_plugin.html</loc>
+    
+    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/docs/text_plugin.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
@@ -290,13 +297,6 @@
   
   <url>
     <loc>http://zbmate.com/zh-cn/docs/templates.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/text_plugin.html</loc>
     
     <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
