@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zbmate.com/"/>
-  <updated>2017-05-02T16:08:48.658Z</updated>
+  <updated>2017-05-04T18:06:22.753Z</updated>
   <id>http://zbmate.com/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智播 0.11 版本发布</title>
+    <link href="http://zbmate.com/news/2017/05/05/zbmate-releasenote-0-11/"/>
+    <id>http://zbmate.com/news/2017/05/05/zbmate-releasenote-0-11/</id>
+    <published>2017-05-05T00:00:00.000Z</published>
+    <updated>2017-05-04T18:06:22.753Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><h2 id="Bug-Fix"><a href="#Bug-Fix" class="headerlink" title="Bug Fix"></a>Bug Fix</h2><ol>
+<li>广告插件底部描述居中</li>
+<li>广告插件美元符号改成人民币</li>
+<li>所有插件字体使用苹果pingfang字体</li>
+<li>解决session过期问题,使用过程中session过期,时间顺延</li>
+</ol>
+<h2 id="To-Do"><a href="#To-Do" class="headerlink" title="To Do"></a>To Do</h2><ol>
+<li>增加语音功能</li>
+<li>增加礼物插件</li>
+<li>增加用户进入插件</li>
+</ol>
+<h2 id="Know-Issues"><a href="#Know-Issues" class="headerlink" title="Know Issues"></a>Know Issues</h2><ol>
+<li><code>圆形动画插件</code>用苹果电脑显示有问题,变成方形</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;新功能&quot;&gt;&lt;a href=&quot;#新功能&quot; class=&quot;headerlink&quot; title=&quot;新功能&quot;&gt;&lt;/a&gt;新功能&lt;/h2&gt;&lt;h2 id=&quot;Bug-Fix&quot;&gt;&lt;a href=&quot;#Bug-Fix&quot; class=&quot;headerlink&quot; title=&quot;Bug Fix
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>智播 0.1 版本发布</title>
@@ -59,38 +91,6 @@
 &lt;li&gt;聊天室插件&lt;/li&gt;
 &lt;li&gt;广告插件&lt;/li&gt;
 &lt;li&gt;相册插
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>智播 0.11 版本发布</title>
-    <link href="http://zbmate.com/news/2017/05/03/zbmate-releasenote-0-11/"/>
-    <id>http://zbmate.com/news/2017/05/03/zbmate-releasenote-0-11/</id>
-    <published>2017-05-03T00:00:00.000Z</published>
-    <updated>2017-05-04T18:06:22.753Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><h2 id="Bug-Fix"><a href="#Bug-Fix" class="headerlink" title="Bug Fix"></a>Bug Fix</h2><ol>
-<li>广告插件底部描述居中</li>
-<li>广告插件美元符号改成人民币</li>
-<li>所有插件字体使用苹果pingfang字体</li>
-<li>解决session过期问题,使用过程中session过期,时间顺延</li>
-</ol>
-<h2 id="To-Do"><a href="#To-Do" class="headerlink" title="To Do"></a>To Do</h2><ol>
-<li>增加语音功能</li>
-<li>增加礼物插件</li>
-<li>增加用户进入插件</li>
-</ol>
-<h2 id="Know-Issues"><a href="#Know-Issues" class="headerlink" title="Know Issues"></a>Know Issues</h2><ol>
-<li><code>圆形动画插件</code>用苹果电脑显示有问题,变成方形</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;新功能&quot;&gt;&lt;a href=&quot;#新功能&quot; class=&quot;headerlink&quot; title=&quot;新功能&quot;&gt;&lt;/a&gt;新功能&lt;/h2&gt;&lt;h2 id=&quot;Bug-Fix&quot;&gt;&lt;a href=&quot;#Bug-Fix&quot; class=&quot;headerlink&quot; title=&quot;Bug Fix
     
     </summary>
     
