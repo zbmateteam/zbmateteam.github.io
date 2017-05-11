@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zbmate.com/zh-cn/docs/usercase2.html</loc>
+    
+    <lastmod>2017-05-11T00:39:48.705Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/usercase2.html</loc>
+    
+    <lastmod>2017-05-11T00:39:48.705Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zbmate.com/news/2017/05/05/zbmate-releasenote-0-11/</loc>
     
     <lastmod>2017-05-04T18:06:22.753Z</lastmod>
@@ -37,14 +51,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/troubleshooting.html</loc>
+    <loc>http://zbmate.com/docs/troubleshooting.html</loc>
     
     <lastmod>2017-05-04T06:49:08.244Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/troubleshooting.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/troubleshooting.html</loc>
     
     <lastmod>2017-05-04T06:49:08.244Z</lastmod>
     
@@ -72,14 +86,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/index.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/index.html</loc>
     
     <lastmod>2017-05-04T03:40:56.943Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/index.html</loc>
+    <loc>http://zbmate.com/docs/index.html</loc>
     
     <lastmod>2017-05-04T03:40:56.943Z</lastmod>
     
