@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zbmate.com/"/>
-  <updated>2017-05-15T08:13:00.160Z</updated>
+  <updated>2017-05-15T17:09:49.300Z</updated>
   <id>http://zbmate.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智播 0.13 版本发布</title>
+    <link href="http://zbmate.com/news/2017/05/16/zbmate-releasenote-0-13/"/>
+    <id>http://zbmate.com/news/2017/05/16/zbmate-releasenote-0-13/</id>
+    <published>2017-05-16T00:00:00.000Z</published>
+    <updated>2017-05-15T17:09:49.300Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
+<li>爬虫抓取斗鱼礼物信息</li>
+</ol>
+<h2 id="Know-Issues"><a href="#Know-Issues" class="headerlink" title="Know Issues"></a>Know Issues</h2><ol>
+<li>斗鱼 519,520 未知礼物</li>
+<li><code>圆形动画插件</code>用苹果电脑显示有问题,变成方形</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;新功能&quot;&gt;&lt;a href=&quot;#新功能&quot; class=&quot;headerlink&quot; title=&quot;新功能&quot;&gt;&lt;/a&gt;新功能&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;爬虫抓取斗鱼礼物信息&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;Know-Issues&quot;&gt;&lt;a href=&quot;#Know-Is
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>智播 0.12 版本发布</title>
