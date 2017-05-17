@@ -2,7 +2,7 @@
 <html lang="zh-cn">
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8">
-  <title>开始使用 | 智播</title>
+  <title>智播</title>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Canonical links -->
@@ -89,18 +89,52 @@
           <div class="article">
             <div class="inner">
               <header class="article-header">
-                <h1 class="article-title" itemprop="name">开始使用</h1>
+                <h1 class="article-title" itemprop="name"></h1>
          
               </header>
               <div class="article-content" itemprop="articleBody">
-                <p>欢迎使用<code>智播</code>，本文档将帮助您快速上手。如果您在使用过程中遇到问题，请查看 <a href="troubleshooting.html">问题解答</a> 中的解答，或者在 QQ群:627814784提问 或者联系商务QQ: 2708183946。</p>
-<h2 id="什么是智播？" class="article-heading"><a href="#什么是智播？" class="headerlink" title="什么是智播？"></a>什么是智播？<a class="article-anchor" href="#什么是智播？" aria-hidden="true"></a></h2><p><code>智播</code>基于<code>OBS</code>浏览器插件,主播不再需要下载其他插件,只要在<code>智播</code>里面配置好插件,把地址拷贝到OBS浏览器插件即可.</p>
-<h2 id="视频教程" class="article-heading"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程<a class="article-anchor" href="#视频教程" aria-hidden="true"></a></h2><p>下面的视频演示了使用 <code>智播</code> <code>聊天室</code> 插件,感谢<code>cpuwolf</code>制作</p>
-<iframe style="width:704px;height:436px;" src="http://cdn.aixifan.com/player/ACFlashPlayer.out.swf?vid=5136132&ref=http://www.acfun.cn/v/ac3679676" id="ACFlashPlayer-re" frameborder="0"></iframe>
+                <h1 id="完美直播弹幕效果主播教程" class="article-heading"><a href="#完美直播弹幕效果主播教程" class="headerlink" title="完美直播弹幕效果主播教程"></a>完美直播弹幕效果主播教程<a class="article-anchor" href="#完美直播弹幕效果主播教程" aria-hidden="true"></a></h1><p>进入正题之前，先回答2个问题：</p>
+<ul>
+<li>您是斗鱼，熊猫，全民主播？</li>
+<li>您用OBS，Xsplit直播？</li>
+</ul>
+<p>如果上面的关键字，你都不熟悉，说明这个教程可能不适合您。</p>
+<h2 id="为什么要继续往下看？先看直播弹幕效果" class="article-heading"><a href="#为什么要继续往下看？先看直播弹幕效果" class="headerlink" title="为什么要继续往下看？先看直播弹幕效果"></a>为什么要继续往下看？先看直播弹幕效果<a class="article-anchor" href="#为什么要继续往下看？先看直播弹幕效果" aria-hidden="true"></a></h2><p>下面是直播录像的截图。再说一遍，是<em>录像</em>。</p>
+<p>主播，你的直播录像能看见水友当时和你说的话么？<br> <img src="/icon/index/2017-05-17_101439.jpg" alt=""></p>
+<p>屏幕的右侧中部白色字体，是水友的弹幕聊天。效果还可以不？</p>
+<p>其实它有很多动画效果，截图看不出来。</p>
+<h2 id="现行的实现方法？" class="article-heading"><a href="#现行的实现方法？" class="headerlink" title="现行的实现方法？"></a>现行的实现方法？<a class="article-anchor" href="#现行的实现方法？" aria-hidden="true"></a></h2><p>前提说过了，你正在使用OBS，Xsplit直播。</p>
+<p>世面上现在有一种思路，就是给OBS, Xsplit装各种功能的插件，你需要下载，安装，更不用说，很多主播根本不会安装什么插件。</p>
+<p>下载的插件，是可能升级的。当插件升级了，主播需要再次下载，安装，维护起来实在是不便。这个过程中还可能丢失掉主播的人性化配置。</p>
+<h2 id="弹幕效果的更好实现方法" class="article-heading"><a href="#弹幕效果的更好实现方法" class="headerlink" title="弹幕效果的更好实现方法"></a>弹幕效果的更好实现方法<a class="article-anchor" href="#弹幕效果的更好实现方法" aria-hidden="true"></a></h2><p>其实官方OBS，自带插件Browsersource，或者叫浏览器插件。是自带的，你不需要安装任何多余的东西。<br>然后你需要一个网站地址。</p>
+<h3 id="网页地址URL" class="article-heading"><a href="#网页地址URL" class="headerlink" title="网页地址URL"></a>网页地址URL<a class="article-anchor" href="#网页地址URL" aria-hidden="true"></a></h3><p><a href="zbmate.com">zbmate.com</a>提供就提供了这个网页地址</p>
+<h4 id="你需要用email注册一个账号" class="article-heading"><a href="#你需要用email注册一个账号" class="headerlink" title="你需要用email注册一个账号"></a>你需要用email注册一个账号<a class="article-anchor" href="#你需要用email注册一个账号" aria-hidden="true"></a></h4><p>zbmate.com需要用你的账号，记住你的所有个性化设置</p>
+<h5 id="登陆zbmate-com" class="article-heading"><a href="#登陆zbmate-com" class="headerlink" title="登陆zbmate.com"></a>登陆zbmate.com<a class="article-anchor" href="#登陆zbmate-com" aria-hidden="true"></a></h5><p><img src="/icon/index/ScreenHunter_05_May_17_11.48.jpg" alt=""></p>
+<h4 id="填入你的直播房间号" class="article-heading"><a href="#填入你的直播房间号" class="headerlink" title="填入你的直播房间号"></a>填入你的直播房间号<a class="article-anchor" href="#填入你的直播房间号" aria-hidden="true"></a></h4><p>zbmate目前支持的直播平台有,填入你的直播房间号</p>
+<ul>
+<li>斗鱼直播</li>
+<li>熊猫直播</li>
+<li>全民直播</li>
+</ul>
+<p><img src="/icon/index/ScreenHunter_07_May_17_13.32.jpg" alt=""></p>
+<h4 id="选择你想用的弹幕插件" class="article-heading"><a href="#选择你想用的弹幕插件" class="headerlink" title="选择你想用的弹幕插件"></a>选择你想用的弹幕插件<a class="article-anchor" href="#选择你想用的弹幕插件" aria-hidden="true"></a></h4><p>这里以聊天室插件为例，</p>
+<p><img src="/icon/index/ScreenHunter_09_May_17_13.43.jpg" alt=""></p>
+<p>点击保存后，zbmate.com会帮你在网页顶端生成一个很长的网页链接，不用管那么多</p>
+<h4 id="点击复制链接" class="article-heading"><a href="#点击复制链接" class="headerlink" title="点击复制链接"></a>点击复制链接<a class="article-anchor" href="#点击复制链接" aria-hidden="true"></a></h4><p>你和zbmate.com的工作已经结束了</p>
+<h3 id="打开推流直播工具OBS-studio" class="article-heading"><a href="#打开推流直播工具OBS-studio" class="headerlink" title="打开推流直播工具OBS studio"></a>打开推流直播工具OBS studio<a class="article-anchor" href="#打开推流直播工具OBS-studio" aria-hidden="true"></a></h3><p>在OBS来源选择自带的BrowserSource</p>
+<p><img src="/icon/index/2017-05-17_obs.jpg" alt=""></p>
+<h4 id="添加BrowserSource" class="article-heading"><a href="#添加BrowserSource" class="headerlink" title="添加BrowserSource"></a>添加BrowserSource<a class="article-anchor" href="#添加BrowserSource" aria-hidden="true"></a></h4><p>这里默认命名为BrowserSource。你可以改名，也可以不改</p>
+<p><img src="/icon/index/ScreenHunter_10_May_17_14.03.jpg" alt=""></p>
+<h4 id="修改BrowserSource-网页地址URL" class="article-heading"><a href="#修改BrowserSource-网页地址URL" class="headerlink" title="修改BrowserSource 网页地址URL"></a>修改BrowserSource 网页地址URL<a class="article-anchor" href="#修改BrowserSource-网页地址URL" aria-hidden="true"></a></h4><p><img src="/icon/index/ScreenHunter_11_May_17_14.07.jpg" alt=""></p>
+<p>将zbmate.com提供的超长链接粘贴过来，然后点击确定按钮</p>
+<p><img src="/icon/index/ScreenHunter_13_May_17_14.32.jpg" alt=""></p>
+<p>然后效果类似这样</p>
+<p><img src="/icon/index/ScreenHunter_14_May_17_14.45.jpg" alt=""></p>
+
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2017-05-11T06:34:50.650Z" itemprop="dateModified">上次更新：2017-05-11</time>
-                <a href="plugin_list.html" class="article-footer-next" title="插件列表"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+                <time class="article-footer-updated" datetime="2017-05-17T07:20:10.009Z" itemprop="dateModified">上次更新：2017-05-17</time>
+                <a href="video_teach1.html" class="article-footer-next" title="视频教程1"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
               
             </div>
@@ -108,14 +142,14 @@
           <aside id="article-toc" role="navigation">
             <div id="article-toc-inner">
               <strong class="sidebar-title">目录</strong>
-              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#什么是智播？"><span class="toc-text">什么是智播？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#视频教程"><span class="toc-text">视频教程</span></a></li></ol>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#完美直播弹幕效果主播教程"><span class="toc-text">完美直播弹幕效果主播教程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#为什么要继续往下看？先看直播弹幕效果"><span class="toc-text">为什么要继续往下看？先看直播弹幕效果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#现行的实现方法？"><span class="toc-text">现行的实现方法？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#弹幕效果的更好实现方法"><span class="toc-text">弹幕效果的更好实现方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#网页地址URL"><span class="toc-text">网页地址URL</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#你需要用email注册一个账号"><span class="toc-text">你需要用email注册一个账号</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#登陆zbmate-com"><span class="toc-text">登陆zbmate.com</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#填入你的直播房间号"><span class="toc-text">填入你的直播房间号</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#选择你想用的弹幕插件"><span class="toc-text">选择你想用的弹幕插件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#点击复制链接"><span class="toc-text">点击复制链接</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#打开推流直播工具OBS-studio"><span class="toc-text">打开推流直播工具OBS studio</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#添加BrowserSource"><span class="toc-text">添加BrowserSource</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#修改BrowserSource-网页地址URL"><span class="toc-text">修改BrowserSource 网页地址URL</span></a></li></ol></li></ol></li></ol></li></ol>
               <a href="#" id="article-toc-top">回到顶部</a>
             </div>
           </aside>
         </div>
       </article>
       <aside id="sidebar" role="navigation">
-  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link current">概述</a><strong class="sidebar-title">插件列表</strong><a href="plugin_list.html" class="sidebar-link">插件列表</a><strong class="sidebar-title">用户案例</strong><a href="usercase1.html" class="sidebar-link">大叔带你：开飞机：737冷舱启动详解</a><a href="usercase2.html" class="sidebar-link">添加投票插件视频教程</a><a href="usercase3.html" class="sidebar-link">语音功能</a><strong class="sidebar-title">其他</strong><a href="troubleshooting.html" class="sidebar-link">问题解答</a></div>
+  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link current">概述</a><a href="video_teach1.html" class="sidebar-link">视频教程1</a><strong class="sidebar-title">插件列表</strong><a href="plugin_list.html" class="sidebar-link">插件列表</a><strong class="sidebar-title">用户案例</strong><a href="usercase1.html" class="sidebar-link">大叔带你：开飞机：737冷舱启动详解</a><a href="usercase2.html" class="sidebar-link">添加投票插件视频教程</a><a href="usercase3.html" class="sidebar-link">语音功能</a><strong class="sidebar-title">其他</strong><a href="troubleshooting.html" class="sidebar-link">问题解答</a></div>
 </aside>
     </div>
   </div>
@@ -146,7 +180,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link current">概述</a><strong class="mobile-nav-title">插件列表</strong><a href="plugin_list.html" class="mobile-nav-link">插件列表</a><strong class="mobile-nav-title">用户案例</strong><a href="usercase1.html" class="mobile-nav-link">大叔带你：开飞机：737冷舱启动详解</a><a href="usercase2.html" class="mobile-nav-link">添加投票插件视频教程</a><a href="usercase3.html" class="mobile-nav-link">语音功能</a><strong class="mobile-nav-title">其他</strong><a href="troubleshooting.html" class="mobile-nav-link">问题解答</a>
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link current">概述</a><a href="video_teach1.html" class="mobile-nav-link">视频教程1</a><strong class="mobile-nav-title">插件列表</strong><a href="plugin_list.html" class="mobile-nav-link">插件列表</a><strong class="mobile-nav-title">用户案例</strong><a href="usercase1.html" class="mobile-nav-link">大叔带你：开飞机：737冷舱启动详解</a><a href="usercase2.html" class="mobile-nav-link">添加投票插件视频教程</a><a href="usercase3.html" class="mobile-nav-link">语音功能</a><strong class="mobile-nav-title">其他</strong><a href="troubleshooting.html" class="mobile-nav-link">问题解答</a>
     
   </div>
   
