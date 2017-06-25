@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zbmate.com/"/>
-  <updated>2017-06-17T09:01:41.489Z</updated>
+  <updated>2017-06-25T13:46:58.840Z</updated>
   <id>http://zbmate.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智播 0.16 版本发布</title>
+    <link href="http://zbmate.com/news/2017/06/25/zbmate-releasenote-0-16/"/>
+    <id>http://zbmate.com/news/2017/06/25/zbmate-releasenote-0-16/</id>
+    <published>2017-06-25T00:00:00.000Z</published>
+    <updated>2017-06-25T13:46:58.840Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
+<li>支持B站弹幕</li>
+<li>修复弹幕关闭后,部分平台还在接受数据包</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;新功能&quot;&gt;&lt;a href=&quot;#新功能&quot; class=&quot;headerlink&quot; title=&quot;新功能&quot;&gt;&lt;/a&gt;新功能&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;支持B站弹幕&lt;/li&gt;
+&lt;li&gt;修复弹幕关闭后,部分平台还在接受数据包&lt;/li&gt;
+&lt;/ol&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>智播 0.15 版本发布</title>
