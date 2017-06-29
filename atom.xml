@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zbmate.com/"/>
-  <updated>2017-06-26T16:47:50.168Z</updated>
+  <updated>2017-06-29T16:49:56.927Z</updated>
   <id>http://zbmate.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智播云插件 0.18 版本发布</title>
+    <link href="http://zbmate.com/news/2017/06/30/zbmate-releasenote-0-18/"/>
+    <id>http://zbmate.com/news/2017/06/30/zbmate-releasenote-0-18/</id>
+    <published>2017-06-30T00:00:00.000Z</published>
+    <updated>2017-06-29T16:49:56.927Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
+<li>简洁版弹幕插件增加随机颜色显示</li>
+<li>B站修复礼物插件</li>
+<li>熊猫修复礼物插件, 熊猫礼物是2套,一套是游戏主播，一套是新秀主播,现在智播采用的是新秀这套，差别主要在于3个礼物,<code>比心</code>,<code>扯</code>,<code>拥抱</code>,对应这3个礼物在游戏里面叫<code>？？？</code>,<code>666</code>,<code>稳</code>,价格都是一样的.</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;新功能&quot;&gt;&lt;a href=&quot;#新功能&quot; class=&quot;headerlink&quot; title=&quot;新功能&quot;&gt;&lt;/a&gt;新功能&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;简洁版弹幕插件增加随机颜色显示&lt;/li&gt;
+&lt;li&gt;B站修复礼物插件&lt;/li&gt;
+&lt;li&gt;熊猫修复礼物插件, 熊猫礼物是2套
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>智播 0.17 版本发布</title>
