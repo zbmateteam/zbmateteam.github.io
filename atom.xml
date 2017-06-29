@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zbmate.com/"/>
-  <updated>2017-06-29T16:49:56.927Z</updated>
+  <updated>2017-06-29T21:34:37.000Z</updated>
   <id>http://zbmate.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://zbmate.com/news/2017/06/30/zbmate-releasenote-0-18/"/>
     <id>http://zbmate.com/news/2017/06/30/zbmate-releasenote-0-18/</id>
     <published>2017-06-30T00:00:00.000Z</published>
-    <updated>2017-06-29T16:49:56.927Z</updated>
+    <updated>2017-06-29T21:34:37.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
 <li>简洁版弹幕插件增加随机颜色显示</li>
@@ -46,7 +46,7 @@
     <link href="http://zbmate.com/news/2017/06/27/zbmate-releasenote-0-17/"/>
     <id>http://zbmate.com/news/2017/06/27/zbmate-releasenote-0-17/</id>
     <published>2017-06-27T00:00:00.000Z</published>
-    <updated>2017-06-26T16:47:50.168Z</updated>
+    <updated>2017-06-29T12:27:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
 <li>SimpleChat弹幕插件添加2种风格: 左对齐和居中对齐</li>
@@ -70,7 +70,7 @@
     <link href="http://zbmate.com/news/2017/06/25/zbmate-releasenote-0-16/"/>
     <id>http://zbmate.com/news/2017/06/25/zbmate-releasenote-0-16/</id>
     <published>2017-06-25T00:00:00.000Z</published>
-    <updated>2017-06-25T13:46:58.840Z</updated>
+    <updated>2017-06-29T12:27:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
 <li>支持B站弹幕</li>
@@ -96,7 +96,7 @@
     <link href="http://zbmate.com/news/2017/06/17/zbmate-releasenote-0-15/"/>
     <id>http://zbmate.com/news/2017/06/17/zbmate-releasenote-0-15/</id>
     <published>2017-06-17T00:00:00.000Z</published>
-    <updated>2017-06-17T09:01:41.489Z</updated>
+    <updated>2017-06-29T12:27:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
 <li>修复全民弹幕</li>
@@ -120,7 +120,7 @@
     <link href="http://zbmate.com/news/2017/06/13/zbmate-releasenote-0-14/"/>
     <id>http://zbmate.com/news/2017/06/13/zbmate-releasenote-0-14/</id>
     <published>2017-06-13T00:00:00.000Z</published>
-    <updated>2017-06-12T16:47:02.481Z</updated>
+    <updated>2017-06-29T12:27:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
 <li>新增板栗直播,弹幕，礼物，投票，用户进入</li>
@@ -146,7 +146,7 @@
     <link href="http://zbmate.com/news/2017/05/16/zbmate-releasenote-0-13/"/>
     <id>http://zbmate.com/news/2017/05/16/zbmate-releasenote-0-13/</id>
     <published>2017-05-16T00:00:00.000Z</published>
-    <updated>2017-05-15T17:09:49.300Z</updated>
+    <updated>2017-06-29T12:27:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
 <li>爬虫抓取斗鱼礼物信息</li>
@@ -174,7 +174,7 @@
     <link href="http://zbmate.com/news/2017/05/15/zbmate-releasenote-0-12/"/>
     <id>http://zbmate.com/news/2017/05/15/zbmate-releasenote-0-12/</id>
     <published>2017-05-15T00:00:00.000Z</published>
-    <updated>2017-05-15T08:13:00.160Z</updated>
+    <updated>2017-06-29T12:27:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
 <li>增加语音功能</li>
@@ -205,7 +205,7 @@
     <link href="http://zbmate.com/news/2017/05/05/zbmate-releasenote-0-11/"/>
     <id>http://zbmate.com/news/2017/05/05/zbmate-releasenote-0-11/</id>
     <published>2017-05-05T00:00:00.000Z</published>
-    <updated>2017-05-04T18:06:22.753Z</updated>
+    <updated>2017-06-29T12:27:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><h2 id="Bug-Fix"><a href="#Bug-Fix" class="headerlink" title="Bug Fix"></a>Bug Fix</h2><ol>
 <li>广告插件底部描述居中</li>
@@ -237,7 +237,7 @@
     <link href="http://zbmate.com/news/2017/05/03/zbmate-releasenote-0-1/"/>
     <id>http://zbmate.com/news/2017/05/03/zbmate-releasenote-0-1/</id>
     <published>2017-05-03T00:00:00.000Z</published>
-    <updated>2017-05-02T16:08:48.658Z</updated>
+    <updated>2017-06-29T12:27:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
 <li>白板插件</li>
