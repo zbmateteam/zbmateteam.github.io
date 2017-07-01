@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zbmate.com/zh-cn/docs/faq.html</loc>
+    
+    <lastmod>2017-07-01T23:09:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/faq.html</loc>
+    
+    <lastmod>2017-07-01T23:09:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zbmate.com/download/index.html</loc>
     
     <lastmod>2017-07-01T00:46:40.000Z</lastmod>
@@ -58,20 +72,6 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/usercase2.html</loc>
-    
-    <lastmod>2017-06-29T12:27:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/news/2017/05/05/zbmate-releasenote-0-11/</loc>
-    
-    <lastmod>2017-06-29T12:27:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zbmate.com/docs/troubleshooting.html</loc>
     
     <lastmod>2017-06-29T12:27:38.000Z</lastmod>
@@ -93,14 +93,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/news/2017/05/16/zbmate-releasenote-0-13/</loc>
+    <loc>http://zbmate.com/docs/usercase2.html</loc>
     
     <lastmod>2017-06-29T12:27:38.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/usercase3.html</loc>
+    <loc>http://zbmate.com/news/2017/05/16/zbmate-releasenote-0-13/</loc>
     
     <lastmod>2017-06-29T12:27:38.000Z</lastmod>
     
@@ -178,6 +178,20 @@
   
   <url>
     <loc>http://zbmate.com/zh-cn/docs/usercase3.html</loc>
+    
+    <lastmod>2017-06-29T12:27:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/news/2017/05/05/zbmate-releasenote-0-11/</loc>
+    
+    <lastmod>2017-06-29T12:27:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/usercase3.html</loc>
     
     <lastmod>2017-06-29T12:27:38.000Z</lastmod>
     
