@@ -220,11 +220,11 @@ body {
   white-space: nowrap;
   overflow: hidden;
   background: url("/zbmate_logo_obs2.png");
-  width: 155px;
+  width: 98px;
   height: 40px;
-  -webkit-background-size: 155px 40px;
-  -moz-background-size: 155px 40px;
-  background-size: 155px 40px;
+  -webkit-background-size: 98px 40px;
+  -moz-background-size: 98px 40px;
+  background-size: 98px 40px;
   display: block;
 }
 #main-nav {
