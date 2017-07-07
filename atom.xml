@@ -5,11 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zbmate.com/"/>
-<<<<<<< HEAD
-  <updated>2017-07-07T01:00:40.752Z</updated>
-=======
-  <updated>2017-07-03T02:51:19.951Z</updated>
->>>>>>> f4c3894ed106ec0cb7bb0c2b1b1ddf3d665cbcb3
+  <updated>2017-07-07T03:01:32.324Z</updated>
   <id>http://zbmate.com/</id>
   
   <author>
@@ -24,7 +20,7 @@
     <link href="http://zbmate.com/news/2017/07/07/zbmate-releasenote-0-19/"/>
     <id>http://zbmate.com/news/2017/07/07/zbmate-releasenote-0-19/</id>
     <published>2017-07-07T00:00:00.000Z</published>
-    <updated>2017-07-07T01:00:40.752Z</updated>
+    <updated>2017-07-07T03:01:32.324Z</updated>
     
     <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
 <li>礼物堆插件发布</li>
