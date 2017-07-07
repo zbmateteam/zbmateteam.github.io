@@ -2,6 +2,104 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zbmate.com/news/2017/07/07/zbmate-releasenote-0-19/</loc>
+    
+    <lastmod>2017-07-07T01:00:40.752Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/docs/faq.html</loc>
+    
+    <lastmod>2017-07-07T00:59:35.017Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/index.html</loc>
+    
+    <lastmod>2017-07-07T00:59:35.012Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/usercase2.html</loc>
+    
+    <lastmod>2017-07-07T00:59:35.010Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/usercase1.html</loc>
+    
+    <lastmod>2017-07-07T00:59:35.002Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/index.html</loc>
+    
+    <lastmod>2017-07-07T00:59:34.995Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/faq.html</loc>
+    
+    <lastmod>2017-07-07T00:59:34.993Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/docs/video_teach1.html</loc>
+    
+    <lastmod>2017-07-03T02:11:48.329Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/docs/user_B_sample.html</loc>
+    
+    <lastmod>2017-07-03T02:11:48.329Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/docs/index.html</loc>
+    
+    <lastmod>2017-07-03T02:11:48.329Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/themes/index.html</loc>
+    
+    <lastmod>2017-07-03T02:11:48.298Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/download/index.html</loc>
+    
+    <lastmod>2017-07-03T02:11:48.282Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/video_teach1.html</loc>
+    
+    <lastmod>2017-07-03T02:11:48.282Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/user_B_sample.html</loc>
+    
+    <lastmod>2017-07-03T02:11:48.282Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zbmate.com/news/2017/06/30/zbmate-releasenote-0-18/</loc>
     
     <lastmod>2017-06-29T16:49:56.927Z</lastmod>
@@ -37,34 +135,6 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/index.html</loc>
-    
-    <lastmod>2017-05-17T07:35:53.834Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/index.html</loc>
-    
-    <lastmod>2017-05-17T07:20:10.009Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/video_teach1.html</loc>
-    
-    <lastmod>2017-05-17T07:13:54.447Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/video_teach1.html</loc>
-    
-    <lastmod>2017-05-17T07:13:54.447Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zbmate.com/docs/usercase3.html</loc>
     
     <lastmod>2017-05-16T08:08:42.755Z</lastmod>
@@ -93,13 +163,6 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/usercase2.html</loc>
-    
-    <lastmod>2017-05-11T00:50:52.977Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zbmate.com/zh-cn/docs/usercase2.html</loc>
     
     <lastmod>2017-05-11T00:50:24.565Z</lastmod>
@@ -114,23 +177,9 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/index.html</loc>
-    
-    <lastmod>2017-05-04T09:22:53.193Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zbmate.com/zh-cn/index.html</loc>
     
     <lastmod>2017-05-04T09:22:41.862Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/download/index.html</loc>
-    
-    <lastmod>2017-05-04T08:21:32.595Z</lastmod>
     
   </url>
   
@@ -142,13 +191,6 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/troubleshooting.html</loc>
-    
-    <lastmod>2017-05-04T06:49:08.244Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zbmate.com/docs/troubleshooting.html</loc>
     
     <lastmod>2017-05-04T06:49:08.244Z</lastmod>
@@ -156,23 +198,9 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/plugin_list.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/troubleshooting.html</loc>
     
-    <lastmod>2017-05-04T06:48:21.921Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/zh-cn/docs/plugin_list.html</loc>
-    
-    <lastmod>2017-05-04T06:48:21.921Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/usercase1.html</loc>
-    
-    <lastmod>2017-05-04T06:08:14.393Z</lastmod>
+    <lastmod>2017-05-04T06:49:08.244Z</lastmod>
     
   </url>
   
@@ -180,13 +208,6 @@
     <loc>http://zbmate.com/news/2017/05/03/zbmate-releasenote-0-1/</loc>
     
     <lastmod>2017-05-02T16:08:48.658Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/themes/index.html</loc>
-    
-    <lastmod>2017-04-26T18:38:16.000Z</lastmod>
     
   </url>
   
