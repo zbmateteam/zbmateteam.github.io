@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html class="loading" lang="zh-cn">
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8">
   <title>智播 | OBS云插件 | 智播 0.14 版本发布 | </title>
@@ -45,6 +45,14 @@
 
 </head>
 
+<script type="text/javascript">
+// IE10+
+document.getElementsByTagName( "html" )[0].classList.remove( "loading" );
+// All browsers
+document.getElementsByTagName( "html" )[0].className.replace( /loading/, "" );
+// Or with jQuery
+$( "html" ).removeClass( "loading" );
+</script>
 <body>
   <div id="container">
     <header id="header" class="wrapper">

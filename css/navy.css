@@ -90,6 +90,36 @@ a img {
   border: none;
 }
 html {
+  -webkit-transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -ms-transition: background-color 1s;
+  transition: background-color 1s;
+}
+html.loading {
+  background: #333 url("loading.gif") no-repeat 50% 50%;
+  -webkit-transition: background-color 0;
+  -webkit-transition: background-color 0;
+  -moz-transition: background-color 0;
+  -ms-transition: background-color 0;
+  transition: background-color 0;
+}
+body {
+  -webkit-transition: opacity 1s ease-in;
+  -webkit-transition: opacity 1s ease-in;
+  -moz-transition: opacity 1s ease-in;
+  -ms-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+}
+html.loading body {
+  opacity: 0;
+  -webkit-transition: opacity 0;
+  -webkit-transition: opacity 0;
+  -moz-transition: opacity 0;
+  -ms-transition: opacity 0;
+  transition: opacity 0;
+}
+html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
