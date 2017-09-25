@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zbmate.com/"/>
-  <updated>2017-07-21T00:56:29.828Z</updated>
+  <updated>2017-09-25T16:05:34.047Z</updated>
   <id>http://zbmate.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智播OBS云插件 0.22 版本发布</title>
+    <link href="http://zbmate.com/news/2017/09/26/zbmate-releasenote-0-22/"/>
+    <id>http://zbmate.com/news/2017/09/26/zbmate-releasenote-0-22/</id>
+    <published>2017-09-26T00:00:00.000Z</published>
+    <updated>2017-09-25T16:05:34.047Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
+<li>智播云插件全新改版,插件分免费区和会员区</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;新功能&quot;&gt;&lt;a href=&quot;#新功能&quot; class=&quot;headerlink&quot; title=&quot;新功能&quot;&gt;&lt;/a&gt;新功能&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;智播云插件全新改版,插件分免费区和会员区&lt;/li&gt;
+&lt;/ol&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>智播OBS云插件 0.21 版本发布</title>
