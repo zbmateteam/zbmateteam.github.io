@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zbmate.com/zh-cn/docs/danmu_jianjie.html</loc>
+    
+    <lastmod>2017-10-31T16:08:22.785Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/docs/intro.html</loc>
+    
+    <lastmod>2017-10-31T16:07:11.257Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/intro.html</loc>
+    
+    <lastmod>2017-10-31T16:03:15.184Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/user_B_sample.html</loc>
+    
+    <lastmod>2017-10-31T15:58:44.472Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/zh-cn/docs/index.html</loc>
+    
+    <lastmod>2017-10-31T15:57:31.640Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zbmate.com/news/2017/09/26/zbmate-releasenote-0-22/</loc>
     
     <lastmod>2017-09-25T16:05:34.047Z</lastmod>
@@ -72,13 +107,6 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/user_B_sample.html</loc>
-    
-    <lastmod>2017-07-03T02:11:48.329Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zbmate.com/zh-cn/docs/video_teach1.html</loc>
     
     <lastmod>2017-07-03T02:11:48.329Z</lastmod>
@@ -86,7 +114,7 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/zh-cn/docs/index.html</loc>
+    <loc>http://zbmate.com/zh-cn/docs/user_B_sample.html</loc>
     
     <lastmod>2017-07-03T02:11:48.329Z</lastmod>
     
@@ -100,21 +128,14 @@
   </url>
   
   <url>
-    <loc>http://zbmate.com/docs/video_teach1.html</loc>
-    
-    <lastmod>2017-07-03T02:11:48.282Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/docs/user_B_sample.html</loc>
-    
-    <lastmod>2017-07-03T02:11:48.282Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zbmate.com/download/index.html</loc>
+    
+    <lastmod>2017-07-03T02:11:48.282Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zbmate.com/docs/video_teach1.html</loc>
     
     <lastmod>2017-07-03T02:11:48.282Z</lastmod>
     
