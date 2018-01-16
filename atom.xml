@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zbmate.com/"/>
-  <updated>2017-09-25T16:05:34.047Z</updated>
+  <updated>2018-01-16T11:33:44.935Z</updated>
   <id>http://zbmate.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智播OBS云插件 0.23 版本发布</title>
+    <link href="http://zbmate.com/news/2018/01/16/zbmate-releasenote-0-23/"/>
+    <id>http://zbmate.com/news/2018/01/16/zbmate-releasenote-0-23/</id>
+    <published>2018-01-16T00:00:00.000Z</published>
+    <updated>2018-01-16T11:33:44.935Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><ol>
+<li>添加插件商店</li>
+<li>支持触手TV,虎牙</li>
+<li>BGM支持</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;新功能&quot;&gt;&lt;a href=&quot;#新功能&quot; class=&quot;headerlink&quot; title=&quot;新功能&quot;&gt;&lt;/a&gt;新功能&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;添加插件商店&lt;/li&gt;
+&lt;li&gt;支持触手TV,虎牙&lt;/li&gt;
+&lt;li&gt;BGM支持&lt;/li&gt;
+&lt;/ol&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>智播OBS云插件 0.22 版本发布</title>
