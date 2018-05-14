@@ -77,6 +77,51 @@
 </header>
 
     
+<style>
+
+/*Button Three*/
+.button-three {
+    position: relative;
+    background-color: #f39c12;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    font-size:24px;
+    color:#FFFFFF;
+}
+
+.button-three:hover{
+   background:#fff;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+}
+
+.button-three:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button-three:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+</style>
 <div id="content-wrap">
   <div class="wrapper">
 
@@ -85,7 +130,11 @@
       <header id="plugin-list-header">
         <h1 id="plugin-list-title">推荐使用此刻主播助手</h1>
 
-        <div id="plugin-list-count">9 items</div>
+        <!--<div id="plugin-list-count">9 items</div>-->
+        <a class="button-three" style="float: right;overflow: hidden;" href="http://zbmate.com/download/setup_2.0.2.16083_PC_010.exe" target="_blank">立刻下载</a>
+    
+ 
+
         <br/>
         <br/>
         <br/>
