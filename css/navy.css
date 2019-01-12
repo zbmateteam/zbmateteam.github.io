@@ -169,6 +169,11 @@ body {
   margin: -1px 0;
   margin-top: 85px;
 }
+@media (max-width: 768px) {
+  #content-wrap {
+    margin-top: 50px;
+  }
+}
 #content-wrap .banner {
   width: 100%;
   height: 240px;
@@ -178,6 +183,11 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+}
+@media (max-width: 768px) {
+  #content-wrap .banner {
+    margin-top: 0;
+  }
 }
 #content-wrap h2 {
   width: 1000px;
@@ -203,10 +213,16 @@ body {
   -webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
   box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
   min-height: 50px;
+  overflow: hidden;
 }
 @media print {
   #header {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  #header {
+    padding: 0;
   }
 }
 #header-inner {
@@ -259,11 +275,18 @@ body {
   flex: 0 64px;
   margin-top: 7px;
 }
+@media (max-width: 768px) {
+  #logo-wrap {
+    position: absolute;
+    left: 10px;
+    top: 3px;
+  }
+}
 #logo {
   text-indent: 101%;
   white-space: nowrap;
   overflow: hidden;
-  background: url("http://zbmate.com/home/img/logo_144_42.png");
+  background: url("http://zbmate.com/home/img/logo_144_42.png") no-repeat;
   width: 143px;
   height: 42px;
 /* background-size: @width @height */
@@ -271,6 +294,15 @@ body {
   -moz-background-size: auto 42px;
   background-size: auto 42px;
   display: block;
+}
+@media (max-width: 768px) {
+  #logo {
+    width: 130px;
+    height: 30px;
+    -webkit-background-size: auto 30px;
+    -moz-background-size: auto 30px;
+    background-size: auto 30px;
+  }
 }
 #main-nav {
   display: none;
@@ -304,14 +336,14 @@ body {
   position: relative;
 }
 .main-nav-link {
-  margin-left: 5px;
+  margin-left: 5.5px;
 }
 .main-nav-link:hover {
 /* opacity: 1 */
   color: #d72128;
 }
 .main-nav-links {
-  padding: 0 4px;
+  padding: 0 3.5px;
 }
 .main-nav-links:hover {
   color: #333;
@@ -364,7 +396,7 @@ body {
 #lang-select-wrap {
   display: none;
   position: relative;
-  left: 5px;
+  left: 4px;
 }
 @media screen and (min-width: 769px) {
   #lang-select-wrap {
@@ -1268,13 +1300,12 @@ a.article-title:hover {
 }
 #mobile-nav-toggle {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 20px;
-  width: 25px;
+  top: 18px;
+  right: 26px;
+  width: 22px;
   height: 20px;
-  margin: auto;
-  opacity: 0.5;
+  margin: 0;
+/* opacity: 0.5 */
   cursor: pointer;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
@@ -1316,13 +1347,13 @@ a.article-title:hover {
   transform: rotate(45deg);
 }
 .mobile-nav-toggle-bar:nth-child(2) {
-  top: 9px;
+  top: 6px;
 }
 .mobile-nav-on .mobile-nav-toggle-bar:nth-child(2) {
   opacity: 0;
 }
 .mobile-nav-toggle-bar:last-child {
-  top: 18px;
+  top: 12px;
 }
 .mobile-nav-on .mobile-nav-toggle-bar:last-child {
   -webkit-transform: rotate(-45deg);
@@ -1418,6 +1449,94 @@ a.article-title:hover {
   -moz-transition: opacity 0.4s;
   -ms-transition: opacity 0.4s;
   transition: opacity 0.4s;
+}
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 63px;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+.navbar-collapse ul,
+.navbar-collapse li {
+  list-style: none;
+}
+.navbar-collapse a {
+  text-decoration: none;
+  color: #333;
+}
+@media (min-width: 768px) {
+  .navbar-collapse {
+    margin: 0;
+  }
+}
+.navbar-collapse.on {
+  height: 191px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+@media (min-width: 768px) {
+  .navbar-collapse.on {
+    height: 0;
+    display: none;
+  }
+}
+.navbar-collapse .nav li {
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 44px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 5px 0 15px;
+  position: relative;
+}
+.navbar-collapse .nav li.active a {
+  color: #d72128;
+}
+.navbar-collapse .nav li.active a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  bottom: 11px;
+  background: #d72128;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.navbar-collapse .nav li a:hover {
+  color: #d72128;
+}
+.navbar-collapse .navbar-right {
+/* display: flex
+    justify-content: center
+    align-items: center */
+  text-align: center;
+}
+.navbar-collapse .navbar-right li {
+  display: inline-block;
+}
+.navbar-collapse .navbar-right li a {
+  font-size: 12px;
+}
+.navbar-collapse .navbar-right li:hover {
+  text-decoration: underline;
+}
+.navbar-collapse .navbar-right li span {
+  background: #a7a7a7;
+  width: 1px;
+  height: 9px;
+  display: block;
+  margin: 0 1px;
 }
 #footer {
   padding: 30px 0;
