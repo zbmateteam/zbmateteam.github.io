@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#"><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <title>智播 | 弹幕数据格式</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://zbmate.com/developer/dataformat.html">
+ 
+  <!-- Icon -->
+   
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="智播">
+  <!-- Open Graph -->
+  <meta name="description" content="智播云插件是全平台支持的,所以统一了各个平台的数据格式,开发过程中需要参考下面的数据格式来处理服务器发来的数据. chatmsg type :  chatmsg, must txt:   弹幕内容, must html:   弹幕内容,如果没有表情包图片，和txt完全一样，否则表情包会以html的形式存在里面，, must time: 平台发来的数据有时间戳用平台的,没有就用当前时间戳, must">
+<meta property="og:type" content="website">
+<meta property="og:title" content="弹幕数据格式">
+<meta property="og:url" content="http://zbmate.com/developer/dataformat.html">
+<meta property="og:site_name" content="智播">
+<meta property="og:description" content="智播云插件是全平台支持的,所以统一了各个平台的数据格式,开发过程中需要参考下面的数据格式来处理服务器发来的数据. chatmsg type :  chatmsg, must txt:   弹幕内容, must html:   弹幕内容,如果没有表情包图片，和txt完全一样，否则表情包会以html的形式存在里面，, must time: 平台发来的数据有时间戳用平台的,没有就用当前时间戳, must">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-01-30T16:11:03.911Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="弹幕数据格式">
+<meta name="twitter:description" content="智播云插件是全平台支持的,所以统一了各个平台的数据格式,开发过程中需要参考下面的数据格式来处理服务器发来的数据. chatmsg type :  chatmsg, must txt:   弹幕内容, must html:   弹幕内容,如果没有表情包图片，和txt完全一样，否则表情包会以html的形式存在里面，, must time: 平台发来的数据有时间戳用平台的,没有就用当前时间戳, must">
+  <!-- Google Analytics -->
+  <!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48498357-3', 'auto');
+  ga('send', 'pageview');
+</script>
+-->
+  <!-- 
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6482217598104186",
+          enable_page_level_ads: true
+     });
+  </script>
+-->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?4b1c5ca01831abd2a3c526c51985bd00";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/" id="logo">智播云</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/plugins/" class="main-nav-link">智播云插件</a><a href="/danmuji/" class="main-nav-link">智播弹幕姬</a><a href="/college/" class="main-nav-link">智播学院</a><a href="/developer/" class="main-nav-link">智播开发者</a>
+      
+    </nav>
+    <div id="lang-select-wrap">
+  
+
+      <div class="dropdown">
+        <span><a href="/about">联系我们</a></span>
+      </div>
+      <span>&nbsp;|&nbsp;</span>
+      <div class="dropdown">
+        <span>登录</span>
+        <div class="dropdown-content">
+          
+          <p><a href="http://zbmate.com/login">云插件登录</a></p>
+          
+          <p><a href="http://zbmate.com/dev_login">开发者登录</a></p>
+          
+          <p><a href="http://zbmate.com/gonghui_login">工会登录</a></p>
+          
+        </div>
+      </div>
+ 
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+   
+              <div class="article-content" itemprop="articleBody">
+                <p>智播云插件是全平台支持的,所以统一了各个平台的数据格式,开发过程中需要参考下面的数据格式来处理服务器发来的数据.</p>
+<h2 id="chatmsg" class="article-heading"><a href="#chatmsg" class="headerlink" title="chatmsg"></a>chatmsg<a class="article-anchor" href="#chatmsg" aria-hidden="true"></a></h2><ul>
+<li>type :  <code>chatmsg</code>, must</li>
+<li>txt:   弹幕内容, must</li>
+<li>html:   弹幕内容,如果没有表情包图片，和txt完全一样，否则表情包会以html的形式存在里面，<img src="">, must</li>
+<li>time: 平台发来的数据有时间戳用平台的,没有就用当前时间戳, must</li>
+<li>uid: 用户id,是直播平台的用户id, must</li>
+<li>nn: 用户名字昵称, must</li>
+<li>level: 用户等级,相对直播平台而言的等级, option<br>b站有等级，等级用文字显示，没有等级图片</li>
+<li>level_icon: 用户等级图片,有些平台有图片，有些平台没有, option</li>
+<li>fanslevel: 相对当前直播间的用户等级, option;</li>
+<li>fanslevel_name: 相对当前直播间的用户等级名称, option;<br>b站是每个主播自定义的名字，但是等级是根据送的礼物升级上去的</li>
+<li>fanslevel_icon: 相对当前直播间的用户等级图片, option<br>b站没有icon，平台默认是显示的fanslevel_name</li>
+<li>ic: 用户头像, must</li>
+<li>default_ic: 是否是默认头像,有些平台没有头像,ic就是智播提供的默认头像, must</li>
+<li>rm: 房管,boolean值, option</li>
+<li>pnl: 平台贵族等级, option；是贵族才有这个字段<br>b站pnl表示1：vip；2：svip ，这个和舰长还不是一个东西，这个是老爷，年付费老爷</li>
+<li>pnl_name:贵族等级名称, option</li>
+<li>pnl_icon:贵族等级图片, option</li>
+<li>nl: 贵族等级, option；是贵族才有这个字段<br>b站nl表示1：舰长；2：提督；3：总督 </li>
+<li>nl_name:贵族等级名称, option</li>
+<li>nl_icon:贵族等级图片, option</li>
+<li>medal_list: 显示的头衔icon的数组,通常是表示管理员，贵族等等，不包含头像, option</li>
+</ul>
+<h2 id="gift" class="article-heading"><a href="#gift" class="headerlink" title="gift"></a>gift<a class="article-anchor" href="#gift" aria-hidden="true"></a></h2><ul>
+<li>type :  <code>dgb</code>, must</li>
+<li>time: 平台发来的数据有时间戳用平台的,没有就用当前时间戳, must</li>
+<li>uid: 用户id,是直播平台的用户id, must</li>
+<li>nn: 用户名字昵称, must</li>
+<li>ic: 用户头像, must</li>
+<li>default_ic: 是否是默认头像,有些平台没有头像,ic就是智播提供的默认头像, must</li>
+<li>rm: 房管,boolean值, option</li>
+<li>pnl: 平台贵族等级, option；</li>
+<li>pnl_name:贵族等级名称, option</li>
+<li>pnl_icon:贵族等级图片, option</li>
+<li>nl: 贵族等级, option；是贵族才有这个字段</li>
+<li>nl_name:贵族等级名称, option</li>
+<li>nl_icon:贵族等级图片, option</li>
+<li>gfid: 礼物id，平台提供,must</li>
+<li>gfcnt: 礼物数目,must</li>
+<li>gift: 礼物详情,是一个对象, must<ul>
+<li>gift.name: 礼物名字,must</li>
+<li>gift.price: 礼物价格, must</li>
+<li>gift.icon: 礼物图片, must</li>
+<li>gift.gif: 礼物动态图片, option, 如果这个存在,优先使用这个</li>
+</ul>
+</li>
+</ul>
+<h2 id="welcome" class="article-heading"><a href="#welcome" class="headerlink" title="welcome"></a>welcome<a class="article-anchor" href="#welcome" aria-hidden="true"></a></h2><ul>
+<li>type :  <code>uenter</code>, must</li>
+<li>time: 平台发来的数据有时间戳用平台的,没有就用当前时间戳, must</li>
+<li>uid: 用户id,是直播平台的用户id, must</li>
+<li>nn: 用户名字昵称, must</li>
+<li>ic: 用户头像, must</li>
+<li>default_ic: 是否是默认头像,有些平台没有头像,ic就是智播提供的默认头像, must</li>
+<li>pnl: 平台贵族等级, option；</li>
+<li>pnl_name:贵族等级名称, option</li>
+<li>pnl_icon:贵族等级图片, option</li>
+<li>nl: 贵族等级, option；是贵族才有这个字段</li>
+<li>nl_name:贵族等级名称, option</li>
+<li>nl_icon:贵族等级图片, option</li>
+</ul>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2019-01-30T16:11:03.911Z" itemprop="dateModified">上次更新：2019-01-30</time>
+                <a href="guide.html" class="article-footer-prev" title="开发指南"><i class="fa fa-chevron-left"></i><span>上一页</span></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <script type="text/javascript">
+    (function(win,doc){
+        var s = doc.createElement("script"), h = doc.getElementsByTagName("head")[0];
+        if (!win.alimamatk_show) {
+            s.charset = "gbk";
+            s.async = true;
+            s.src = "https://alimama.alicdn.com/tkapi.js";
+            h.insertBefore(s, h.firstChild);
+        };
+        var o = {
+            pid: "mm_133325413_248800318_80611750142",/*推广单元ID，用于区分不同的推广渠道*/
+            appkey: "",/*通过TOP平台申请的appkey，设置后引导成交会关联appkey*/
+            unid: "",/*自定义统计字段*/
+            type: "click" /* click 组件的入口标志 （使用click组件必设）*/
+        };
+        win.alimamatk_onload = win.alimamatk_onload || [];
+        win.alimamatk_onload.push(o);
+    })(window,document);
+</script>
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#chatmsg"><span class="toc-text">chatmsg</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#gift"><span class="toc-text">gift</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#welcome"><span class="toc-text">welcome</span></a></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">智播云插件</strong><a href="index.html" class="sidebar-link">概述</a><a href="enviroment.html" class="sidebar-link">开发环境</a><a href="guide.html" class="sidebar-link">开发指南</a><a href="dataformat.html" class="sidebar-link current">数据格式</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      深圳智播科技有限公司 | 版权所有 © Copyright zbmate.com. 沪ICP备17014325号-1
+    </div>
+ 
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/plugins/" class="mobile-nav-link">智播云插件</a><a href="/danmuji/" class="mobile-nav-link">智播弹幕姬</a><a href="/college/" class="mobile-nav-link">智播学院</a><a href="/developer/" class="mobile-nav-link">智播开发者</a>
+       
+    </ul>
+    
+      <strong class="mobile-nav-title">智播云插件</strong><a href="index.html" class="mobile-nav-link">概述</a><a href="enviroment.html" class="mobile-nav-link">开发环境</a><a href="guide.html" class="mobile-nav-link">开发指南</a><a href="dataformat.html" class="mobile-nav-link current">数据格式</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+     <div class="dropdown">
+        <span>登录</span>
+        <div class="dropdown-content">
+          
+          <p><a href="http://zbmate.com/login">云插件登录</a></p>
+          
+          <p><a href="http://zbmate.com/dev_login">开发者登录</a></p>
+          
+          <p><a href="http://zbmate.com/gonghui_login">工会登录</a></p>
+          
+        </div>
+      </div>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+
+
+
+</body>
+</html>

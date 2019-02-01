@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#"><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <title>智播 | OBS经典版3分钟入门</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://zbmate.com/college/obsc_three_minutes.html">
+ 
+  <!-- Icon -->
+   
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="智播">
+  <!-- Open Graph -->
+  <meta name="description" content="请新手按照下面的步骤使用智播云插件 1.下载OBS经典版 下载地址 2. 注册登录 每个主播的每个插件都要保存在智播云端,所以必须注册账号. 注册/登录地址 注意:用邮箱注册, 邮箱登陆. 类似 12345@qq.com 3. 填写房间号 只有弹幕类插件需要房间号,非弹幕类插件可以忽略该步骤    4. 测试非弹幕类插件 请先测试非弹幕插件, 这个立马看到效果,这样可以知道工具链是否正确    5">
+<meta property="og:type" content="website">
+<meta property="og:title" content="OBS经典版3分钟入门">
+<meta property="og:url" content="http://zbmate.com/college/obsc_three_minutes.html">
+<meta property="og:site_name" content="智播">
+<meta property="og:description" content="请新手按照下面的步骤使用智播云插件 1.下载OBS经典版 下载地址 2. 注册登录 每个主播的每个插件都要保存在智播云端,所以必须注册账号. 注册/登录地址 注意:用邮箱注册, 邮箱登陆. 类似 12345@qq.com 3. 填写房间号 只有弹幕类插件需要房间号,非弹幕类插件可以忽略该步骤    4. 测试非弹幕类插件 请先测试非弹幕插件, 这个立马看到效果,这样可以知道工具链是否正确    5">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://zbmate.com/image/college/room.png">
+<meta property="og:image" content="http://zbmate.com/image/college/room1.png">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1397121-4286552ec0d0ef06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1397121-10069c55c62dcae4.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1397121-257fd978a8bd03d6.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1397121-e893f16da0947ea8.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://zbmate.com/image/college/obsc_1.png">
+<meta property="og:image" content="http://zbmate.com/image/college/obsc_2.png">
+<meta property="og:image" content="http://zbmate.com/image/college/obsc_3.png">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1397121-740b79f9a4491e8b.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://zbmate.com/image/developer/obsc_storage_1.png">
+<meta property="og:image" content="http://zbmate.com/image/developer/obsc_storage_2.png">
+<meta property="og:updated_time" content="2019-01-31T07:45:25.468Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OBS经典版3分钟入门">
+<meta name="twitter:description" content="请新手按照下面的步骤使用智播云插件 1.下载OBS经典版 下载地址 2. 注册登录 每个主播的每个插件都要保存在智播云端,所以必须注册账号. 注册/登录地址 注意:用邮箱注册, 邮箱登陆. 类似 12345@qq.com 3. 填写房间号 只有弹幕类插件需要房间号,非弹幕类插件可以忽略该步骤    4. 测试非弹幕类插件 请先测试非弹幕插件, 这个立马看到效果,这样可以知道工具链是否正确    5">
+<meta name="twitter:image" content="http://zbmate.com/image/college/room.png">
+  <!-- Google Analytics -->
+  <!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48498357-3', 'auto');
+  ga('send', 'pageview');
+</script>
+-->
+  <!-- 
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6482217598104186",
+          enable_page_level_ads: true
+     });
+  </script>
+-->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?4b1c5ca01831abd2a3c526c51985bd00";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/" id="logo">智播云</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/plugins/" class="main-nav-link">智播云插件</a><a href="/danmuji/" class="main-nav-link">智播弹幕姬</a><a href="/college/" class="main-nav-link">智播学院</a><a href="/developer/" class="main-nav-link">智播开发者</a>
+      
+    </nav>
+    <div id="lang-select-wrap">
+  
+
+      <div class="dropdown">
+        <span><a href="/about">联系我们</a></span>
+      </div>
+      <span>&nbsp;|&nbsp;</span>
+      <div class="dropdown">
+        <span>登录</span>
+        <div class="dropdown-content">
+          
+          <p><a href="http://zbmate.com/login">云插件登录</a></p>
+          
+          <p><a href="http://zbmate.com/dev_login">开发者登录</a></p>
+          
+          <p><a href="http://zbmate.com/gonghui_login">工会登录</a></p>
+          
+        </div>
+      </div>
+ 
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+   
+              <div class="article-content" itemprop="articleBody">
+                <p>请新手按照下面的步骤使用智播云插件</p>
+<h2 id="1-下载OBS经典版" class="article-heading"><a href="#1-下载OBS经典版" class="headerlink" title="1.下载OBS经典版"></a>1.下载OBS经典版<a class="article-anchor" href="#1-下载OBS经典版" aria-hidden="true"></a></h2><hr>
+<p><a href="http://zbmate.com/college/downloads.html">下载地址</a></p>
+<h2 id="2-注册登录" class="article-heading"><a href="#2-注册登录" class="headerlink" title="2. 注册登录"></a>2. 注册登录<a class="article-anchor" href="#2-注册登录" aria-hidden="true"></a></h2><hr>
+<p>每个主播的每个插件都要保存在智播云端,所以必须注册账号.</p>
+<p><a href="http://zbmate.com/login">注册/登录地址</a></p>
+<p>注意:用邮箱注册, 邮箱登陆. 类似 <a href="mailto:12345@qq.com" target="_blank" rel="noopener">12345@qq.com</a></p>
+<h2 id="3-填写房间号" class="article-heading"><a href="#3-填写房间号" class="headerlink" title="3. 填写房间号"></a>3. 填写房间号<a class="article-anchor" href="#3-填写房间号" aria-hidden="true"></a></h2><hr>
+<p>只有弹幕类插件需要房间号,非弹幕类插件可以忽略该步骤</p>
+<p> <img src="/image/college/room.png" alt="填写房间号"><br> <img src="/image/college/room1.png" alt="填写房间号"></p>
+<h2 id="4-测试非弹幕类插件" class="article-heading"><a href="#4-测试非弹幕类插件" class="headerlink" title="4. 测试非弹幕类插件"></a>4. 测试非弹幕类插件<a class="article-anchor" href="#4-测试非弹幕类插件" aria-hidden="true"></a></h2><hr>
+<p>请先测试非弹幕插件, 这个立马看到效果,这样可以知道工具链是否正确</p>
+<p> <img src="http://upload-images.jianshu.io/upload_images/1397121-4286552ec0d0ef06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1397121-10069c55c62dcae4.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="3.PNG"></p>
+<h2 id="5-保存插件配置" class="article-heading"><a href="#5-保存插件配置" class="headerlink" title="5. 保存插件配置"></a>5. 保存插件配置<a class="article-anchor" href="#5-保存插件配置" aria-hidden="true"></a></h2><hr>
+<p><img src="http://upload-images.jianshu.io/upload_images/1397121-257fd978a8bd03d6.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="3.PNG"></p>
+<p>保存后会生成一个链接，点击 <code>复制链接</code><br><img src="http://upload-images.jianshu.io/upload_images/1397121-e893f16da0947ea8.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="4.PNG"></p>
+<h2 id="6-配置OBS" class="article-heading"><a href="#6-配置OBS" class="headerlink" title="6. 配置OBS"></a>6. 配置OBS<a class="article-anchor" href="#6-配置OBS" aria-hidden="true"></a></h2><hr>
+<p><img src="/image/college/obsc_1.png" alt="obsc_1"><br><img src="/image/college/obsc_2.png" alt="obsc_2"><br><img src="/image/college/obsc_3.png" alt="obsc_2"></p>
+<p>把步骤5里面复制的链接拷贝进去</p>
+<p>点击确定，就可以看到效果图</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1397121-740b79f9a4491e8b.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1.gif"></p>
+<h2 id="7-允许OBS本地保存数据" class="article-heading"><a href="#7-允许OBS本地保存数据" class="headerlink" title="7. 允许OBS本地保存数据"></a>7. 允许OBS本地保存数据<a class="article-anchor" href="#7-允许OBS本地保存数据" aria-hidden="true"></a></h2><p>OBS经典版本默认是不支持本地存储的,这一步不是必须的,但是没有没有本地保存功能,部分智播插件会功能受到限制,比如礼物任务插件就没有办法支持多天的任务.</p>
+<p>参考如下图片修改OBS的设置</p>
+<p><img src="/image/developer/obsc_storage_1.png" alt="OBS经典版本本地存储步骤1"></p>
+<p>设置一个存在的目录给浏览器保存数据,这里用<code>c:\workshop\temp\</code>做例子.<br><img src="/image/developer/obsc_storage_2.png" alt="OBS经典版本本地存储步骤1"></p>
+<p>到此,你就基本掌握的智播云插件的用法了。弹幕类插件用法一样,只是要选择一个房间号。</p>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2019-01-31T07:45:25.468Z" itemprop="dateModified">上次更新：2019-01-31</time>
+                <a href="obss_three_minutes.html" class="article-footer-prev" title="OBS工作室3分钟入门"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="cike_three_minutes.html" class="article-footer-next" title="此刻主播助手3分钟入门"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <script type="text/javascript">
+    (function(win,doc){
+        var s = doc.createElement("script"), h = doc.getElementsByTagName("head")[0];
+        if (!win.alimamatk_show) {
+            s.charset = "gbk";
+            s.async = true;
+            s.src = "https://alimama.alicdn.com/tkapi.js";
+            h.insertBefore(s, h.firstChild);
+        };
+        var o = {
+            pid: "mm_133325413_248800318_80611750142",/*推广单元ID，用于区分不同的推广渠道*/
+            appkey: "",/*通过TOP平台申请的appkey，设置后引导成交会关联appkey*/
+            unid: "",/*自定义统计字段*/
+            type: "click" /* click 组件的入口标志 （使用click组件必设）*/
+        };
+        win.alimamatk_onload = win.alimamatk_onload || [];
+        win.alimamatk_onload.push(o);
+    })(window,document);
+</script>
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-下载OBS经典版"><span class="toc-text">1.下载OBS经典版</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-注册登录"><span class="toc-text">2. 注册登录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-填写房间号"><span class="toc-text">3. 填写房间号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-测试非弹幕类插件"><span class="toc-text">4. 测试非弹幕类插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-保存插件配置"><span class="toc-text">5. 保存插件配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-配置OBS"><span class="toc-text">6. 配置OBS</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-允许OBS本地保存数据"><span class="toc-text">7. 允许OBS本地保存数据</span></a></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">智播云插件</strong><a href="index.html" class="sidebar-link">概述</a><a href="obss_three_minutes.html" class="sidebar-link">OBS工作室3分钟入门</a><a href="obsc_three_minutes.html" class="sidebar-link current">OBS经典版3分钟入门</a><a href="cike_three_minutes.html" class="sidebar-link">此刻主播助手3分钟入门</a><a href="video_gift_task.html" class="sidebar-link">礼物任务教学视频</a><a href="video_newguy1.html" class="sidebar-link">智播新手上路教学视频1</a><a href="video_newguy2.html" class="sidebar-link">智播新手上路教学视频2</a><a href="video_newguy3.html" class="sidebar-link">智播新手上路教学视频3</a><a href="video_newguy4.html" class="sidebar-link">智播新手上路教学视频4</a><a href="usercase1.html" class="sidebar-link">智播云插件案例展示1</a><a href="usercase2.html" class="sidebar-link">智播云插件案例展示2</a><strong class="sidebar-title">OBS篇</strong><a href="mbps.html" class="sidebar-link">Mbps与MB/s之间的关系</a><a href="tecent.html" class="sidebar-link">腾讯手游助手添加方法</a><a href="mobiletoupin.html" class="sidebar-link">手机投屏到电脑直播</a><a href="cleardegree.html" class="sidebar-link">直播画面清晰度</a><strong class="sidebar-title">美颜篇</strong><a href="markupcamera.html" class="sidebar-link">美颜摄像头获取</a><strong class="sidebar-title">杂项</strong><a href="downloads.html" class="sidebar-link">工具下载</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      深圳智播科技有限公司 | 版权所有 © Copyright zbmate.com. 沪ICP备17014325号-1
+    </div>
+ 
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/plugins/" class="mobile-nav-link">智播云插件</a><a href="/danmuji/" class="mobile-nav-link">智播弹幕姬</a><a href="/college/" class="mobile-nav-link">智播学院</a><a href="/developer/" class="mobile-nav-link">智播开发者</a>
+       
+    </ul>
+    
+      <strong class="mobile-nav-title">智播云插件</strong><a href="index.html" class="mobile-nav-link">概述</a><a href="obss_three_minutes.html" class="mobile-nav-link">OBS工作室3分钟入门</a><a href="obsc_three_minutes.html" class="mobile-nav-link current">OBS经典版3分钟入门</a><a href="cike_three_minutes.html" class="mobile-nav-link">此刻主播助手3分钟入门</a><a href="video_gift_task.html" class="mobile-nav-link">礼物任务教学视频</a><a href="video_newguy1.html" class="mobile-nav-link">智播新手上路教学视频1</a><a href="video_newguy2.html" class="mobile-nav-link">智播新手上路教学视频2</a><a href="video_newguy3.html" class="mobile-nav-link">智播新手上路教学视频3</a><a href="video_newguy4.html" class="mobile-nav-link">智播新手上路教学视频4</a><a href="usercase1.html" class="mobile-nav-link">智播云插件案例展示1</a><a href="usercase2.html" class="mobile-nav-link">智播云插件案例展示2</a><strong class="mobile-nav-title">OBS篇</strong><a href="mbps.html" class="mobile-nav-link">Mbps与MB/s之间的关系</a><a href="tecent.html" class="mobile-nav-link">腾讯手游助手添加方法</a><a href="mobiletoupin.html" class="mobile-nav-link">手机投屏到电脑直播</a><a href="cleardegree.html" class="mobile-nav-link">直播画面清晰度</a><strong class="mobile-nav-title">美颜篇</strong><a href="markupcamera.html" class="mobile-nav-link">美颜摄像头获取</a><strong class="mobile-nav-title">杂项</strong><a href="downloads.html" class="mobile-nav-link">工具下载</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+     <div class="dropdown">
+        <span>登录</span>
+        <div class="dropdown-content">
+          
+          <p><a href="http://zbmate.com/login">云插件登录</a></p>
+          
+          <p><a href="http://zbmate.com/dev_login">开发者登录</a></p>
+          
+          <p><a href="http://zbmate.com/gonghui_login">工会登录</a></p>
+          
+        </div>
+      </div>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+
+
+
+</body>
+</html>

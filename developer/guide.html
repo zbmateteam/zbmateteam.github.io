@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#"><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <title>智播 | 开发指南</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://zbmate.com/developer/guide.html">
+ 
+  <!-- Icon -->
+   
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  <link rel="stylesheet" href="/css/navy.css">
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="智播">
+  <!-- Open Graph -->
+  <meta name="description" content="插件配置在实现插件的时候,我们需要提供方式让主播自定义内容.智播通过如下的方式实现了主播自定义内容.  插件配置页面定义配置项  代码里面(js/css/html)通过下面的方式引用配置项   &amp;lt;%= color %&amp;gt; 添加插件配置的时候需要注意的是:  默认值一定要是最优的选择 设置合适的最大值,最小值可以避免主播犯错  OBS经典版注意事项1.OBS经典版本默认是不支持本地存储的,">
+<meta property="og:type" content="website">
+<meta property="og:title" content="开发指南">
+<meta property="og:url" content="http://zbmate.com/developer/guide.html">
+<meta property="og:site_name" content="智播">
+<meta property="og:description" content="插件配置在实现插件的时候,我们需要提供方式让主播自定义内容.智播通过如下的方式实现了主播自定义内容.  插件配置页面定义配置项  代码里面(js/css/html)通过下面的方式引用配置项   &amp;lt;%= color %&amp;gt; 添加插件配置的时候需要注意的是:  默认值一定要是最优的选择 设置合适的最大值,最小值可以避免主播犯错  OBS经典版注意事项1.OBS经典版本默认是不支持本地存储的,">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://zbmate.com/image/developer/config_item.png">
+<meta property="og:image" content="http://zbmate.com/image/developer/obsc_storage_1.png">
+<meta property="og:image" content="http://zbmate.com/image/developer/obsc_storage_2.png">
+<meta property="og:updated_time" content="2019-01-31T12:34:37.741Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="开发指南">
+<meta name="twitter:description" content="插件配置在实现插件的时候,我们需要提供方式让主播自定义内容.智播通过如下的方式实现了主播自定义内容.  插件配置页面定义配置项  代码里面(js/css/html)通过下面的方式引用配置项   &amp;lt;%= color %&amp;gt; 添加插件配置的时候需要注意的是:  默认值一定要是最优的选择 设置合适的最大值,最小值可以避免主播犯错  OBS经典版注意事项1.OBS经典版本默认是不支持本地存储的,">
+<meta name="twitter:image" content="http://zbmate.com/image/developer/config_item.png">
+  <!-- Google Analytics -->
+  <!--
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48498357-3', 'auto');
+  ga('send', 'pageview');
+</script>
+-->
+  <!-- 
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6482217598104186",
+          enable_page_level_ads: true
+     });
+  </script>
+-->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?4b1c5ca01831abd2a3c526c51985bd00";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/" id="logo">智播云</a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/plugins/" class="main-nav-link">智播云插件</a><a href="/danmuji/" class="main-nav-link">智播弹幕姬</a><a href="/college/" class="main-nav-link">智播学院</a><a href="/developer/" class="main-nav-link">智播开发者</a>
+      
+    </nav>
+    <div id="lang-select-wrap">
+  
+
+      <div class="dropdown">
+        <span><a href="/about">联系我们</a></span>
+      </div>
+      <span>&nbsp;|&nbsp;</span>
+      <div class="dropdown">
+        <span>登录</span>
+        <div class="dropdown-content">
+          
+          <p><a href="http://zbmate.com/login">云插件登录</a></p>
+          
+          <p><a href="http://zbmate.com/dev_login">开发者登录</a></p>
+          
+          <p><a href="http://zbmate.com/gonghui_login">工会登录</a></p>
+          
+        </div>
+      </div>
+ 
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+   
+              <div class="article-content" itemprop="articleBody">
+                <h2 id="插件配置" class="article-heading"><a href="#插件配置" class="headerlink" title="插件配置"></a>插件配置<a class="article-anchor" href="#插件配置" aria-hidden="true"></a></h2><p>在实现插件的时候,我们需要提供方式让主播自定义内容.智播通过如下的方式实现了主播自定义内容.</p>
+<ol>
+<li><p>插件配置页面定义配置项<br><img src="/image/developer/config_item.png" alt="添加一个配置"></p>
+</li>
+<li><p>代码里面(js/css/html)通过下面的方式引用配置项</p>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;%= color %&gt;</span><br></pre></td></tr></table></figure>
+<p>添加插件配置的时候需要注意的是:</p>
+<ol>
+<li>默认值一定要是最优的选择</li>
+<li>设置合适的最大值,最小值可以避免主播犯错</li>
+</ol>
+<h2 id="OBS经典版注意事项" class="article-heading"><a href="#OBS经典版注意事项" class="headerlink" title="OBS经典版注意事项"></a>OBS经典版注意事项<a class="article-anchor" href="#OBS经典版注意事项" aria-hidden="true"></a></h2><p>1.OBS经典版本默认是不支持本地存储的,需要参考如下图片修改OBS的设置</p>
+<p><img src="/image/developer/obsc_storage_1.png" alt="OBS经典版本本地存储步骤1"></p>
+<p>设置一个存在的目录给浏览器保存数据,这里用<code>c:\workshop\temp\</code>做例子.<br><img src="/image/developer/obsc_storage_2.png" alt="OBS经典版本本地存储步骤1"></p>
+<ol start="2">
+<li><p>OBS经典版和OBS工作室版本都不支持<code>webgl</code>(默认不支持),所以开发不要用<code>webgl</code></p>
+</li>
+<li><p>OBS经典版的css动画，需要加上<code>webkit-</code> 前缀</p>
+</li>
+<li><p>OBS经典版没有<code>ready</code>事件</p>
+</li>
+<li><p>OBS经典版不支持<code>ES6</code></p>
+</li>
+</ol>
+<h2 id="测试要求" class="article-heading"><a href="#测试要求" class="headerlink" title="测试要求"></a>测试要求<a class="article-anchor" href="#测试要求" aria-hidden="true"></a></h2><p>开发过程中除了本身浏览器的预览效果是符合预期的,我们必须保证OBS经典版本和OBS工作室版本的运行也是符合预期的.</p>
+<p><a href="/college/obss_three_minutes.html">使用说明参考这里</a></p>
+
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2019-01-31T12:34:37.741Z" itemprop="dateModified">上次更新：2019-01-31</time>
+                <a href="enviroment.html" class="article-footer-prev" title="开发环境"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="dataformat.html" class="article-footer-next" title="数据格式"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <script type="text/javascript">
+    (function(win,doc){
+        var s = doc.createElement("script"), h = doc.getElementsByTagName("head")[0];
+        if (!win.alimamatk_show) {
+            s.charset = "gbk";
+            s.async = true;
+            s.src = "https://alimama.alicdn.com/tkapi.js";
+            h.insertBefore(s, h.firstChild);
+        };
+        var o = {
+            pid: "mm_133325413_248800318_80611750142",/*推广单元ID，用于区分不同的推广渠道*/
+            appkey: "",/*通过TOP平台申请的appkey，设置后引导成交会关联appkey*/
+            unid: "",/*自定义统计字段*/
+            type: "click" /* click 组件的入口标志 （使用click组件必设）*/
+        };
+        win.alimamatk_onload = win.alimamatk_onload || [];
+        win.alimamatk_onload.push(o);
+    })(window,document);
+</script>
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#插件配置"><span class="toc-text">插件配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#OBS经典版注意事项"><span class="toc-text">OBS经典版注意事项</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#测试要求"><span class="toc-text">测试要求</span></a></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">智播云插件</strong><a href="index.html" class="sidebar-link">概述</a><a href="enviroment.html" class="sidebar-link">开发环境</a><a href="guide.html" class="sidebar-link current">开发指南</a><a href="dataformat.html" class="sidebar-link">数据格式</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      深圳智播科技有限公司 | 版权所有 © Copyright zbmate.com. 沪ICP备17014325号-1
+    </div>
+ 
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/plugins/" class="mobile-nav-link">智播云插件</a><a href="/danmuji/" class="mobile-nav-link">智播弹幕姬</a><a href="/college/" class="mobile-nav-link">智播学院</a><a href="/developer/" class="mobile-nav-link">智播开发者</a>
+       
+    </ul>
+    
+      <strong class="mobile-nav-title">智播云插件</strong><a href="index.html" class="mobile-nav-link">概述</a><a href="enviroment.html" class="mobile-nav-link">开发环境</a><a href="guide.html" class="mobile-nav-link current">开发指南</a><a href="dataformat.html" class="mobile-nav-link">数据格式</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+     <div class="dropdown">
+        <span>登录</span>
+        <div class="dropdown-content">
+          
+          <p><a href="http://zbmate.com/login">云插件登录</a></p>
+          
+          <p><a href="http://zbmate.com/dev_login">开发者登录</a></p>
+          
+          <p><a href="http://zbmate.com/gonghui_login">工会登录</a></p>
+          
+        </div>
+      </div>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+<script src="/js/lang_select.js"></script>
+<script src="/js/toc.js"></script>
+<script src="/js/mobile_nav.js"></script>
+<!-- endbuild -->
+
+
+
+</body>
+</html>
