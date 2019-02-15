@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zbmate.com/college/plugin_debug.html</loc>
+    
+    <lastmod>2019-02-15T11:31:32.498Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zbmate.com/danmuji/index.html</loc>
     
     <lastmod>2019-02-14T14:39:59.713Z</lastmod>
@@ -103,13 +110,6 @@
     <loc>http://zbmate.com/college/iqiyi_gift_icon.html</loc>
     
     <lastmod>2019-02-05T05:22:19.311Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zbmate.com/college/plugin_debug.html</loc>
-    
-    <lastmod>2019-02-05T04:14:55.923Z</lastmod>
     
   </url>
   
